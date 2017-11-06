@@ -15,7 +15,7 @@ names(bfd) <- gsub(x = names(bfd), pattern = "\\)", replacement = "")
 names(bfd) <- gsub(x = names(bfd), pattern = " ", replacement = "_")
 names(bfd)
 
-write_csv(bfd, "brown_clean_02.csv")
+write_csv(bfd, "bfd_clean_01.csv")
 
 ### tidy the data
 # First we use gather to breakout the taxa & count data
@@ -27,7 +27,7 @@ tidy.bfd <- bfd %>%
 
 head(tidy.bfd, 3)
 
-write_csv(tidy.bfd, "tidy_brown_02.csv")
+write_csv(tidy.bfd, "bfd_tidy_01.csv")
 
 ## 
 # Need to calculate relative abundance, which is count of each taxa divided by total
