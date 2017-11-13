@@ -197,3 +197,9 @@ s6
 # Rasterstack of all raster brick stacks
 superstack <- stack(s1,s2,s3,s4,s5,s6)
 superstack
+
+# Create individual rasters for each variable:
+writeRaster(superstack, filename=names(superstack), bylayer=TRUE,format="GTiff")
+
+# Create a single multilayer raster with all variables
+writeRaster(superstack, filename="superstack.tif", options="INTERLEAVE=BAND", overwrite=TRUE)
