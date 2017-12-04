@@ -1,0 +1,184 @@
+# A global planktic foraminifer census data set for the Pliocene ocean
+#-----------------------------------------------------------------------
+#               World Data Center for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: http://www.ncdc.noaa.gov/paleo/study/19281
+# Online_Resource: http://www1.ncdc.noaa.gov/pub/data/paleo/contributions_by_author/foley2015/
+#
+# Archive: Paleoceanography
+#
+# Parameter_Keywords: sea surface temperature
+#---------------------------------------
+# Contribution_Date
+#    Date: 2015-10-02
+#---------------------------------------
+# Title
+#    Study_Name: A global planktic foraminifer census data set for the Pliocene ocean
+#---------------------------------------
+# Investigators
+#      Investigators: Compilers: Foley, Kevin; Robinson, Marci; Dowsett, Harry; Contributors: Dowsett, Harry; Poore, Richard; Robinson, Marci; Foley, Kevin; Stoll, Danielle; Polanco, Emerson; Wiggs, Linda; Caballero, Rocio; Verardo, Stacy; Strother, Stephanie; West, Stephanie; Lutz, Brendan; Brown, Sarah
+#---------------------------------------
+# Description and Notes
+#        Description: Compilers: Foley, Kevin; Robinson, Marci; Dowsett, Harry 
+#         Provided Keywords: Paleoclimatology, Paleoceanography, Paleobiology, Pliocene, Piacenzian, Sea Surface Temperature, plankton, planktonic foraminifer, global warming
+#---------------------------------------
+# Publication
+# Authors: Harry J. Dowsett, Marci M. Robinson, Alan M. Haywood, Ulrich Salzmann, Daniel Hill, Linda Sohl, Mark Chandler, Mark Williams, Kevin Foley, and Danielle K. Stoll
+# Published_Date_or_Year: 2010
+# Published_Title: The PRISM3D paleoenvironmental reconstruction
+# Journal_Name: Stratigraphy
+# Volume: 7
+# Issue: 2, 3
+# Pages: 123 - 139
+# Report Number: 
+# DOI: 
+# Abstract: The Pliocene Research, Interpretation and Synoptic Mapping (PRISM) paleoenvironmental reconstruction is an internally consistent and comprehensive global synthesis of a past interval of relatively warm and stable climate. It is regularly used in model studies that aim to better understand Pliocene climate, to improve model performance in future climate scenarios, and to distinguish model-dependent climate effects. The PRISM reconstruction is constantly evolving in order to incorporate additional geographic sites and environmental parameters, and is continuously refined by independent research findings. The new PRISM three dimensional (3D) reconstruction differs from previous PRISM reconstructions in that it includes a subsurface ocean temperature reconstruction, integrates geochemical sea surface temperature proxies to supplement the faunal-based temperature estimates, and uses numerical models for the first time to augment fossil data. Here we describe the components of PRISM3D and describe new findings specific to the new reconstruction. Highlights of the new PRISM3D reconstruction include removal of Hudson Bay and the Great Lakes and creation of open waterways in locations where the current bedrock elevation is less than 25m above modern sea level, due to the removal of the West Antarctic Ice Sheet and the reduction of the East Antarctic Ice Sheet. The mid-Piacenzian oceans were characterized by a reduced east-west temperature gradient in the equatorial Pacific, but PRISM3D data do not imply permanent El Ni̱o conditions. The reduced equator-to-pole temperature gradient that characterized previous PRISM reconstructions is supported by significant displacement of vegetation belts toward the poles, is extended into the Arctic Ocean, and is confirmed by multiple proxies in PRISM3D. Arctic warmth coupled with increased dryness suggests the formation of warm and salty paleo North Atlantic Deep Water (NADW) and a more vigorous thermohaline circulation system that may have provided the enhanced ocean heat transport necessary to move warm surface water to the Arctic. New deep ocean temperature data also suggests greater warmth and further southward penetration of paleo NADW.
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: USGS Climate and Land Use Change Research and Development Program
+#    Grant: 
+#---------------------------------------
+# Site Information
+# Site_Name: ODP 758A
+# Location: Indian Ocean
+# Country: 
+# Northernmost_Latitude: 5.3842
+# Southernmost_Latitude: 5.3842
+# Easternmost_Longitude: 90.3612
+# Westernmost_Longitude: 90.3612
+# Elevation: -2923.6
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: ODP 758A Foley15
+#   First_Year: 3303000
+#   Last_Year: 2976000
+#   Time_Unit: cal yr BP
+#   Core_Length: 
+#   Notes: 
+#---------------------------------------
+# Chronology: 
+# Age models for most core sites contained in the PRISM planktic foram census data set are based upon combinations of faunal and floral biostratigraphy and calibrated events, paleomagnetic stratigraphy, and tephrachronology, utilizing stratigraphic data presented in DSDP and ODP Leg volumes and other articles. The following core sites differ in that age models were developed by tuning variations in oxygen isotope or magnetic susceptibility records to changes in insolation due to variations in the Earth's orbit. (607, 610, 659, 763, 806, 847, 852, 925, 1014, 1237, and 1239)
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## SampleID	Sample ID,,,,,paleoceanography,,,C
+## CruiseID	Cruise ID,,,,,paleoceanography,,,C
+## CruiseSiteID	Cruise Site,,,,,paleoceanography,,,C
+## CoreHole	Core Hole,,,,,paleoceanography,,,C
+## CoreID	Core ID,,,,,paleoceanography,,,C
+## CoreSect	Core Section,,,,,paleoceanography,,,C
+## depth-core-top	Top Depth in Core Section,,,cm,,paleoceanography,,,N
+## depth-core-bot	Bottom Depth in Core Section,,,cm,,paleoceanography,,,N
+## depth-core-mid	Mid Depth in Core Section,,,cm,,paleoceanography,,,N
+## depth_m	depth,,,m,,paleoceanography,,,N
+## age_Ma	age,,,Million years before present,,paleoceanography,,,N
+## c.niti	Candeina nitida,,,count,,paleoceanography,,,N
+## d.altisp	Dentoglobigerina altispira,,,count,,paleoceanography,,,N
+## d.baroem	Dentoglobigerina baroemoensis,,,count,,paleoceanography,,,N
+## g.apert	Globigerina apertura,,,count,,paleoceanography,,,N
+## g.bull	Globigerina bulloides,,,count,,paleoceanography,,,N
+## g.calid	Globigerina calida,,,count,,paleoceanography,,,N
+## g.decora	Globigerina decoraperta,,,count,,paleoceanography,,,N
+## g.digit	Globigerina digitata,,,count,,paleoceanography,,,N
+## g.eamesi	Globigerina eamesi,,,count,,paleoceanography,,,N
+## g.falco	Globigerina falconensis,,,count,,paleoceanography,,,N
+## g.incisa	Globigerina incisa,,,count,,paleoceanography,,,N
+## g.nepen	Globigerina nepenthes,,,count,,paleoceanography,,,N
+## g.obesa	Globigerina obesa,,,count,,paleoceanography,,,N
+## g.praed	Globigerina praedigitata,,,count,,paleoceanography,,,N
+## g.pseudob	Globigerina pseudobesa,,,count,,paleoceanography,,,N
+## g.rubes	Globigerina rubescens,,,count,,paleoceanography,,,N
+## g.umbil	Globigerina umbilicata,,,count,,paleoceanography,,,N
+## g.woodi	Globigerina woodi,,,count,,paleoceanography,,,N
+## globirina.sp	Globigerina spp.,,,count,,paleoceanography,,,N
+## g.aequi	Globigerinella aequilateralis,,,count,,paleoceanography,,,N
+## g.siphon	Globigerinella siphonifera,,,count,,paleoceanography,,,N
+## g.glut	Globigerinita glutinata,,,count,,paleoceanography,,,N
+## g.congl	Globigerinoides conglobatus,,,count,,paleoceanography,,,N
+## g.fistul	Globigerinoides fistulosis,,,count,,paleoceanography,,,N
+## g.obliq	Globigerinoides obliquus,,,count,,paleoceanography,,,N
+## g.rub	Globigerinoides ruber,,,count,,paleoceanography,,,N
+## g.sac	Globigerinoides sacculifer,,,count,,paleoceanography,,,N
+## g.tenell	Globigerinoides tenellus,,,count,,paleoceanography,,,N
+## globinoides.sp	Globigerinoides spp.,,,count,,paleoceanography,,,N
+## g.conglom	Globoquadrina conglomerata,,,count,,paleoceanography,,,N
+## g.venez	Globoquadrina venezuelana,,,count,,paleoceanography,,,N
+## g.sphericon	Globorotalia (spheri)conomiozea,,,count,,paleoceanography,,,N
+## g.crass	Globorotalia crassaformis,,,count,,paleoceanography,,,N
+## g.crsula	Globorotalia crassula,,,count,,paleoceanography,,,N
+## g.hirsu	Globorotalia hirsuta,,,count,,paleoceanography,,,N
+## g.infla	Globorotalia inflata,,,count,,paleoceanography,,,N
+## g.limb	Globorotalia limbata,,,count,,paleoceanography,,,N
+## g.margar	Globorotalia margaritae,,,count,,paleoceanography,,,N
+## g.menar	Globorotalia menardii,,,count,,paleoceanography,,,N
+## g.multic	Globorotalia multicamerata,,,count,,paleoceanography,,,N
+## g.praep	Globorotalia praepumilio,,,count,,paleoceanography,,,N
+## g.pumi	Globorotalia pumilio,,,count,,paleoceanography,,,N
+## g.scit	Globorotalia scitula,,,count,,paleoceanography,,,N
+## g.tosaen	Globorotalia tosaensis,,,count,,paleoceanography,,,N
+## g.trunc	Globorotalia truncatulinoides,,,count,,paleoceanography,,,N
+## g.tumi	Globorotalia tumida,,,count,,paleoceanography,,,N
+## g.ungul	Globorotalia ungulata,,,count,,paleoceanography,,,N
+## globorot.sp	Globorotalia spp.,,,count,,paleoceanography,,,N
+## g.hexag	Globorotaloides hexagona,,,count,,paleoceanography,,,N
+## n.acost	Neogloboquadrina acostaensis,,,count,,paleoceanography,,,N
+## n.atlan-r	Neogloboquadrina atlantica right coiling,,,count,,paleoceanography,,,N
+## n.atlan-l	Neogloboquadrina atlantica left coiling,,,count,,paleoceanography,,,N
+## n.contin	Neogloboquadrina continuosa,,,count,,paleoceanography,,,N
+## n.duter	Neogloboquadrina dutertrei,,,count,,paleoceanography,,,N
+## n.humer	Neogloboquadrina humerosa,,,count,,paleoceanography,,,N
+## n.pachy-r	Neogloboquadrina pachyderma right coiling,,,count,,paleoceanography,,,N
+## n.pachy-l	Neogloboquadrina pachyderma left coiling,,,count,,paleoceanography,,,N
+## neoqrina.sp	Neogloboquadrina spp.,,,count,,paleoceanography,,,N
+## dupac	Transitional between N. dutertrei and N. pachyderma,,,count,,paleoceanography,,,N
+## o.univer	Orbulina universa,,,count,,paleoceanography,,,N
+## p.obliq	Pulleniatina obliquiloculata,,,count,,paleoceanography,,,N
+## sphaeropsis.sp	Sphaeroidinellopsis spp.,,,count,,paleoceanography,,,N
+## tia.quinq	Turborotalia quinqueloba,,,count,,paleoceanography,,,N
+## forams-other	Unidentified foraminifers,,,count,,paleoceanography,,,N
+## forams-b	Benthic Foraminifers,,,count,,paleoceanography,,,N
+#------------------------
+# Data
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Value: NA
+SampleID	CruiseID	CruiseSiteID	CoreHole	CoreID	CoreSect	depth-core-top	depth-core-bot	depth-core-mid	depth_m	age_Ma	c.niti	d.altisp	d.baroem	g.apert	g.bull	g.calid	g.decora	g.digit	g.eamesi	g.falco	g.incisa	g.nepen	g.obesa	g.praed	g.pseudob	g.rubes	g.umbil	g.woodi	globirina.sp	g.aequi	g.siphon	g.glut	g.congl	g.fistul	g.obliq	g.rub	g.sac	g.tenell	globinoides.sp	g.conglom	g.venez	g.sphericon	g.crass	g.crsula	g.hirsu	g.infla	g.limb	g.margar	g.menar	g.multic	g.praep	g.pumi	g.scit	g.tosaen	g.trunc	g.tumi	g.ungul	globorot.sp	g.hexag	n.acost	n.atlan-r	n.atlan-l	n.contin	n.duter	n.humer	n.pachy-r	n.pachy-l	neoqrina.sp	dupac	o.univer	p.obliq	sphaeropsis.sp	tia.quinq	forams-other	forams-b	
+1	121	758	A	5H	3	7	9	8	37.88	2.976	0	0	0	0	0	0	1	0	0	0	0	0	0	2	0	0	0	6	0	12	0	54	4	0	17	39	18	0	0	0	0	0	0	0	0	3	0	0	6	0	0	0	0	1	0	14	2	0	7	0	0	0	2	0	0	6	1	0	5	18	1	81	0	0	0	
+2	121	758	A	5H	3	24	25	24.5	38.04	2.992	0	0	0	0	2	0	2	0	0	4	0	0	0	16	0	0	0	1	0	25	0	18	0	0	12	11	15	0	0	0	0	0	0	0	0	1	0	0	12	0	0	0	0	0	0	18	0	0	2	0	0	0	3	0	4	8	3	0	1	16	6	95	0	0	0	
+3	121	758	A	5H	3	44	46	45	38.24	2.998	0	0	0	0	0	1	8	0	0	1	0	0	0	2	0	0	0	8	0	18	0	50	0	0	9	29	25	0	0	0	0	0	0	0	0	0	0	0	23	0	0	0	0	0	0	11	8	0	0	0	0	0	8	0	16	10	2	0	10	12	14	53	0	0	0	
+4	121	758	A	5H	3	65	67	66	38.45	3.003	0	0	0	0	0	0	3	0	0	1	0	0	0	0	0	0	0	5	0	5	0	18	3	0	18	29	40	0	0	0	0	0	0	0	0	1	0	0	20	0	0	0	0	0	0	17	4	0	1	5	0	0	5	0	9	12	0	0	12	12	12	65	0	1	0	
+5	121	758	A	5H	3	79	81	80	38.59	3.008	0	0	0	0	0	0	5	0	0	0	0	0	0	4	0	0	0	1	0	0	0	32	3	0	13	24	40	0	0	0	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0	22	6	0	4	3	0	0	6	0	5	10	1	0	5	16	15	56	0	0	0	
+6	121	758	A	5H	3	98.5	100.5	99.5	38.785	3.014	0	0	0	0	0	0	2	0	0	1	0	0	0	1	0	0	0	3	0	11	0	48	4	0	10	30	48	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	2	0	0	31	6	0	3	0	0	0	6	0	6	4	0	0	3	13	17	67	0	0	0	
+7	121	758	A	5H	3	126.5	128.5	127.5	39.065	3.028	0	0	0	0	4	0	12	0	0	5	0	0	0	4	0	0	0	8	0	7	0	31	1	0	13	49	42	0	0	0	0	0	0	0	0	1	0	0	5	0	0	0	0	0	0	17	5	0	3	6	0	0	1	0	11	8	1	0	13	6	31	29	0	0	0	
+8	121	758	A	5H	3	142.5	144.5	143.5	39.225	3.04	0	0	0	0	6	0	0	0	0	6	0	0	0	5	0	0	0	11	0	4	0	37	3	0	6	16	31	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	25	1	0	0	2	0	0	1	0	14	11	2	0	9	11	12	77	0	0	0	
+9	121	758	A	5H	4	9.5	11.5	10.5	39.395	3.047	0	1	0	0	4	0	11	0	0	3	0	0	0	3	0	0	0	6	0	2	0	36	0	0	34	26	43	0	0	0	0	0	2	0	0	0	0	0	7	0	0	0	0	0	0	14	8	0	8	2	0	0	7	0	10	7	2	0	0	3	28	45	0	0	0	
+10	121	758	A	5H	4	24.5	25.5	25	39.545	3.053	0	25	0	0	3	0	0	0	0	4	0	0	0	7	1	0	0	9	0	9	0	29	1	0	15	21	27	0	0	0	0	0	1	0	0	0	0	0	6	0	0	0	1	0	0	34	2	0	2	0	0	0	4	0	6	17	2	0	12	12	11	43	0	0	0	
+11	121	758	A	5H	4	48	52	50	39.78	3.067	0	7	0	0	1	0	0	0	0	4	0	0	0	7	0	0	0	9	0	27	0	22	1	0	1	14	13	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	0	0	39	0	0	0	1	0	0	0	0	2	8	3	0	11	18	10	91	0	0	0	
+12	121	758	A	5H	4	67	69	68	39.97	3.078	0	9	0	0	3	0	0	0	0	0	0	0	0	8	0	0	0	2	0	11	0	34	0	0	7	10	19	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	1	0	0	27	3	0	1	0	0	0	0	0	5	5	1	0	9	10	8	90	0	0	0	
+13	121	758	A	5H	4	83	85	84	40.13	3.087	0	24	0	0	2	0	4	0	0	0	0	0	0	3	0	0	0	4	0	13	0	29	0	0	13	14	56	0	0	0	0	0	0	0	0	0	0	0	32	0	0	0	2	0	0	20	7	0	8	4	0	0	1	0	11	7	2	0	8	9	5	32	0	0	0	
+14	121	758	A	5H	4	107	109	108	40.37	3.105	0	48	0	0	0	0	2	0	0	2	0	0	0	6	1	0	0	4	0	10	0	28	4	0	9	20	62	0	0	0	0	0	0	0	0	1	0	0	10	0	0	0	1	0	0	10	6	0	2	1	0	0	0	0	8	7	1	0	13	7	15	27	0	0	0	
+15	121	758	A	5H	4	127.5	129.5	128.5	40.575	3.115	0	44	0	0	3	0	2	0	0	3	0	0	0	3	0	0	0	2	0	7	0	33	2	0	19	32	34	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	12	7	0	8	3	0	0	1	0	13	14	3	0	16	5	12	14	0	0	0	
+16	121	758	A	5H	5	5.5	7.5	6.5	40.855	3.126	0	29	0	0	3	1	14	0	0	1	0	0	0	0	0	0	0	4	0	5	0	25	1	0	47	36	42	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	22	4	0	4	1	0	0	5	0	12	4	0	0	7	6	6	52	0	0	0	
+17	121	758	A	5H	5	22	24	23	41.02	3.133	0	9	0	0	3	0	1	0	0	5	0	0	0	18	0	0	0	6	0	11	0	39	0	0	10	6	25	3	0	0	0	0	1	0	0	1	0	0	17	0	0	0	1	0	0	38	1	0	1	2	0	0	2	0	4	13	1	0	8	11	6	151	0	0	0	
+18	121	758	A	5H	5	37	39	38	41.17	3.138	0	25	0	0	1	0	0	0	0	3	0	0	0	0	0	0	0	3	0	5	0	31	4	0	27	7	22	0	0	0	0	0	0	0	0	0	0	0	33	0	0	0	2	0	0	32	0	0	5	2	0	0	3	0	2	10	1	0	21	14	9	76	0	0	0	
+19	121	758	A	5H	5	67	69	68	41.47	3.149	0	23	0	0	3	0	4	0	0	0	0	0	0	5	0	0	0	2	0	6	0	18	1	0	6	4	28	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	28	3	0	3	4	0	0	1	0	1	9	1	0	8	13	7	116	0	0	0	
+20	121	758	A	5H	5	82	84	83	41.62	3.155	0	28	0	0	3	0	1	0	0	2	0	0	0	8	0	0	0	0	0	11	0	19	3	0	12	5	42	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	1	0	0	22	12	0	4	9	0	0	3	0	4	7	5	0	14	7	4	81	0	0	0	
+21	121	758	A	5H	5	95	97	96	41.75	3.159	0	36	0	0	5	1	0	0	0	1	0	0	0	8	0	0	0	0	0	13	0	25	1	0	14	9	56	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	26	0	0	1	4	0	0	0	0	4	5	1	0	8	17	1	86	0	0	0	
+22	121	758	A	5H	5	123	125	124	42.03	3.178	0	44	0	0	2	0	2	0	0	4	0	0	0	3	0	0	0	0	0	9	0	28	1	0	9	2	31	0	0	0	0	0	2	0	0	0	0	0	7	0	0	0	1	0	0	45	0	0	5	4	0	0	0	0	1	8	1	0	9	22	1	82	0	0	0	
+23	121	758	A	5H	5	142.5	144.5	143.5	42.225	3.193	0	54	0	0	2	0	0	0	0	3	0	0	0	0	0	0	0	0	0	3	0	28	3	0	15	13	64	0	0	0	0	0	0	0	0	0	0	0	16	0	0	0	0	0	0	16	0	0	4	6	0	0	0	0	1	5	2	0	3	5	9	39	0	0	0	
+24	121	758	A	5H	6	5.5	7.5	6.5	42.355	3.201	0	35	0	0	1	0	6	0	0	9	0	0	0	2	0	0	0	1	0	1	0	23	1	0	28	28	92	0	0	0	0	0	1	0	0	0	0	0	27	0	0	0	0	0	0	10	2	0	8	4	0	0	0	0	1	10	2	0	7	1	8	11	0	0	0	
+25	121	758	A	5H	6	27	29	28	42.57	3.216	0	20	0	0	3	4	5	0	0	0	0	0	0	1	0	0	0	3	0	2	0	34	3	0	33	23	38	0	0	0	0	0	1	0	0	0	0	0	25	0	0	0	3	0	0	13	4	0	3	5	0	0	6	0	2	4	2	0	14	1	15	24	0	0	0	
+26	121	758	A	5H	6	47.5	48.5	48	42.775	3.231	0	32	0	0	5	9	8	0	0	3	0	0	0	5	0	0	0	1	0	4	0	60	2	0	43	18	77	0	0	0	0	0	1	0	0	0	0	0	17	0	0	0	0	0	0	31	0	0	4	1	0	0	3	0	5	3	2	0	11	19	10	31	0	0	0	
+27	121	758	A	5H	6	65.5	67.5	66.5	42.955	3.246	0	24	0	0	3	1	1	0	0	1	0	0	0	3	1	0	0	0	0	2	0	25	1	0	11	3	55	0	0	0	0	0	0	0	0	0	0	0	29	0	0	0	0	0	0	36	0	0	3	1	0	0	1	0	1	10	1	0	8	16	0	77	0	0	0	
+28	121	758	A	5H	6	93	95	94	43.23	3.288	0	17	0	0	9	0	0	0	0	1	0	0	0	5	0	0	0	0	0	4	0	17	1	0	18	9	33	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0	0	24	0	0	4	1	0	0	1	0	3	4	0	0	10	22	3	84	0	0	0	
+29	121	758	A	5H	6	107.5	109.5	108.5	43.375	3.294	0	16	0	0	11	0	1	0	0	2	0	0	0	11	0	0	0	3	0	1	0	22	1	0	11	5	50	0	0	0	0	0	0	0	0	0	0	0	31	0	0	0	0	0	0	19	1	0	3	1	0	0	0	0	0	1	0	0	2	23	4	99	0	0	0	
+30	121	758	A	5H	6	122.5	124.5	123.5	43.525	3.303	0	33	0	0	2	0	0	0	0	1	0	0	0	5	0	0	0	1	0	0	0	18	5	0	13	11	53	0	0	0	0	0	0	0	0	0	0	0	33	0	0	0	1	0	0	15	0	0	2	0	0	0	0	0	2	3	0	0	5	17	3	120	0	0	0	

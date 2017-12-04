@@ -1,0 +1,238 @@
+# A global planktic foraminifer census data set for the Pliocene ocean
+#-----------------------------------------------------------------------
+#               World Data Center for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: http://www.ncdc.noaa.gov/paleo/study/19281
+# Online_Resource: http://www1.ncdc.noaa.gov/pub/data/paleo/contributions_by_author/foley2015/
+#
+# Archive: Paleoceanography
+#
+# Parameter_Keywords: sea surface temperature
+#---------------------------------------
+# Contribution_Date
+#    Date: 2015-10-02
+#---------------------------------------
+# Title
+#    Study_Name: A global planktic foraminifer census data set for the Pliocene ocean
+#---------------------------------------
+# Investigators
+#      Investigators: Compilers: Foley, Kevin; Robinson, Marci; Dowsett, Harry; Contributors: Dowsett, Harry; Poore, Richard; Robinson, Marci; Foley, Kevin; Stoll, Danielle; Polanco, Emerson; Wiggs, Linda; Caballero, Rocio; Verardo, Stacy; Strother, Stephanie; West, Stephanie; Lutz, Brendan; Brown, Sarah
+#---------------------------------------
+# Description and Notes
+#        Description: Compilers: Foley, Kevin; Robinson, Marci; Dowsett, Harry 
+#         Provided Keywords: Paleoclimatology, Paleoceanography, Paleobiology, Pliocene, Piacenzian, Sea Surface Temperature, plankton, planktonic foraminifer, global warming
+#---------------------------------------
+# Publication
+# Authors: Harry J. Dowsett, Marci M. Robinson, Alan M. Haywood, Ulrich Salzmann, Daniel Hill, Linda Sohl, Mark Chandler, Mark Williams, Kevin Foley, and Danielle K. Stoll
+# Published_Date_or_Year: 2010
+# Published_Title: The PRISM3D paleoenvironmental reconstruction
+# Journal_Name: Stratigraphy
+# Volume: 7
+# Issue: 2, 3
+# Pages: 123 - 139
+# Report Number: 
+# DOI: 
+# Abstract: The Pliocene Research, Interpretation and Synoptic Mapping (PRISM) paleoenvironmental reconstruction is an internally consistent and comprehensive global synthesis of a past interval of relatively warm and stable climate. It is regularly used in model studies that aim to better understand Pliocene climate, to improve model performance in future climate scenarios, and to distinguish model-dependent climate effects. The PRISM reconstruction is constantly evolving in order to incorporate additional geographic sites and environmental parameters, and is continuously refined by independent research findings. The new PRISM three dimensional (3D) reconstruction differs from previous PRISM reconstructions in that it includes a subsurface ocean temperature reconstruction, integrates geochemical sea surface temperature proxies to supplement the faunal-based temperature estimates, and uses numerical models for the first time to augment fossil data. Here we describe the components of PRISM3D and describe new findings specific to the new reconstruction. Highlights of the new PRISM3D reconstruction include removal of Hudson Bay and the Great Lakes and creation of open waterways in locations where the current bedrock elevation is less than 25m above modern sea level, due to the removal of the West Antarctic Ice Sheet and the reduction of the East Antarctic Ice Sheet. The mid-Piacenzian oceans were characterized by a reduced east-west temperature gradient in the equatorial Pacific, but PRISM3D data do not imply permanent El Ni̱o conditions. The reduced equator-to-pole temperature gradient that characterized previous PRISM reconstructions is supported by significant displacement of vegetation belts toward the poles, is extended into the Arctic Ocean, and is confirmed by multiple proxies in PRISM3D. Arctic warmth coupled with increased dryness suggests the formation of warm and salty paleo North Atlantic Deep Water (NADW) and a more vigorous thermohaline circulation system that may have provided the enhanced ocean heat transport necessary to move warm surface water to the Arctic. New deep ocean temperature data also suggests greater warmth and further southward penetration of paleo NADW.
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: USGS Climate and Land Use Change Research and Development Program
+#    Grant: 
+#---------------------------------------
+# Site Information
+# Site_Name: ODP 883BC
+# Location: Pacific Ocean
+# Country: 
+# Northernmost_Latitude: 51.1985
+# Southernmost_Latitude: 51.1985
+# Easternmost_Longitude: 167.7688
+# Westernmost_Longitude: 167.7688
+# Elevation: -2384
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: ODP 883BC Foley15
+#   First_Year: 3231000
+#   Last_Year: 3087000
+#   Time_Unit: cal yr BP
+#   Core_Length: 
+#   Notes: 
+#---------------------------------------
+# Chronology: 
+# Age models for most core sites contained in the PRISM planktic foram census data set are based upon combinations of faunal and floral biostratigraphy and calibrated events, paleomagnetic stratigraphy, and tephrachronology, utilizing stratigraphic data presented in DSDP and ODP Leg volumes and other articles. The following core sites differ in that age models were developed by tuning variations in oxygen isotope or magnetic susceptibility records to changes in insolation due to variations in the Earth's orbit. (607, 610, 659, 763, 806, 847, 852, 925, 1014, 1237, and 1239)
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## SampleID	Sample ID,,,,,paleoceanography,,,C
+## CruiseID	Cruise ID,,,,,paleoceanography,,,C
+## CruiseSiteID	Cruise Site,,,,,paleoceanography,,,C
+## CoreHole	Core Hole,,,,,paleoceanography,,,C
+## CoreID	Core ID,,,,,paleoceanography,,,C
+## CoreSect	Core Section,,,,,paleoceanography,,,C
+## depth-core-top	Top Depth in Core Section,,,cm,,paleoceanography,,,N
+## depth-core-bot	Bottom Depth in Core Section,,,cm,,paleoceanography,,,N
+## depth-core-mid	Mid Depth in Core Section,,,cm,,paleoceanography,,,N
+## depth_m	depth,,,m,,paleoceanography,,,N
+## age_Ma	age,,,Million years before present,,paleoceanography,,,N
+## c.niti	Candeina nitida,,,count,,paleoceanography,,,N
+## d.altisp	Dentoglobigerina altispira,,,count,,paleoceanography,,,N
+## d.baroem	Dentoglobigerina baroemoensis,,,count,,paleoceanography,,,N
+## g.apert	Globigerina apertura,,,count,,paleoceanography,,,N
+## g.bull	Globigerina bulloides,,,count,,paleoceanography,,,N
+## g.calid	Globigerina calida,,,count,,paleoceanography,,,N
+## g.decora	Globigerina decoraperta,,,count,,paleoceanography,,,N
+## g.digit	Globigerina digitata,,,count,,paleoceanography,,,N
+## g.eamesi	Globigerina eamesi,,,count,,paleoceanography,,,N
+## g.falco	Globigerina falconensis,,,count,,paleoceanography,,,N
+## g.incisa	Globigerina incisa,,,count,,paleoceanography,,,N
+## g.nepen	Globigerina nepenthes,,,count,,paleoceanography,,,N
+## g.obesa	Globigerina obesa,,,count,,paleoceanography,,,N
+## g.praed	Globigerina praedigitata,,,count,,paleoceanography,,,N
+## g.pseudob	Globigerina pseudobesa,,,count,,paleoceanography,,,N
+## g.rubes	Globigerina rubescens,,,count,,paleoceanography,,,N
+## g.umbil	Globigerina umbilicata,,,count,,paleoceanography,,,N
+## g.woodi	Globigerina woodi,,,count,,paleoceanography,,,N
+## globirina.sp	Globigerina spp.,,,count,,paleoceanography,,,N
+## g.aequi	Globigerinella aequilateralis,,,count,,paleoceanography,,,N
+## g.siphon	Globigerinella siphonifera,,,count,,paleoceanography,,,N
+## g.glut	Globigerinita glutinata,,,count,,paleoceanography,,,N
+## g.congl	Globigerinoides conglobatus,,,count,,paleoceanography,,,N
+## g.fistul	Globigerinoides fistulosis,,,count,,paleoceanography,,,N
+## g.obliq	Globigerinoides obliquus,,,count,,paleoceanography,,,N
+## g.rub	Globigerinoides ruber,,,count,,paleoceanography,,,N
+## g.sac	Globigerinoides sacculifer,,,count,,paleoceanography,,,N
+## g.tenell	Globigerinoides tenellus,,,count,,paleoceanography,,,N
+## globinoides.sp	Globigerinoides spp.,,,count,,paleoceanography,,,N
+## g.conglom	Globoquadrina conglomerata,,,count,,paleoceanography,,,N
+## g.venez	Globoquadrina venezuelana,,,count,,paleoceanography,,,N
+## g.sphericon	Globorotalia (spheri)conomiozea,,,count,,paleoceanography,,,N
+## g.crass	Globorotalia crassaformis,,,count,,paleoceanography,,,N
+## g.crsula	Globorotalia crassula,,,count,,paleoceanography,,,N
+## g.hirsu	Globorotalia hirsuta,,,count,,paleoceanography,,,N
+## g.infla	Globorotalia inflata,,,count,,paleoceanography,,,N
+## g.limb	Globorotalia limbata,,,count,,paleoceanography,,,N
+## g.margar	Globorotalia margaritae,,,count,,paleoceanography,,,N
+## g.menar	Globorotalia menardii,,,count,,paleoceanography,,,N
+## g.multic	Globorotalia multicamerata,,,count,,paleoceanography,,,N
+## g.praep	Globorotalia praepumilio,,,count,,paleoceanography,,,N
+## g.pumi	Globorotalia pumilio,,,count,,paleoceanography,,,N
+## g.scit	Globorotalia scitula,,,count,,paleoceanography,,,N
+## g.tosaen	Globorotalia tosaensis,,,count,,paleoceanography,,,N
+## g.trunc	Globorotalia truncatulinoides,,,count,,paleoceanography,,,N
+## g.tumi	Globorotalia tumida,,,count,,paleoceanography,,,N
+## g.ungul	Globorotalia ungulata,,,count,,paleoceanography,,,N
+## globorot.sp	Globorotalia spp.,,,count,,paleoceanography,,,N
+## g.hexag	Globorotaloides hexagona,,,count,,paleoceanography,,,N
+## n.acost	Neogloboquadrina acostaensis,,,count,,paleoceanography,,,N
+## n.atlan-r	Neogloboquadrina atlantica right coiling,,,count,,paleoceanography,,,N
+## n.atlan-l	Neogloboquadrina atlantica left coiling,,,count,,paleoceanography,,,N
+## n.contin	Neogloboquadrina continuosa,,,count,,paleoceanography,,,N
+## n.duter	Neogloboquadrina dutertrei,,,count,,paleoceanography,,,N
+## n.humer	Neogloboquadrina humerosa,,,count,,paleoceanography,,,N
+## n.pachy-r	Neogloboquadrina pachyderma right coiling,,,count,,paleoceanography,,,N
+## n.pachy-l	Neogloboquadrina pachyderma left coiling,,,count,,paleoceanography,,,N
+## neoqrina.sp	Neogloboquadrina spp.,,,count,,paleoceanography,,,N
+## dupac	Transitional between N. dutertrei and N. pachyderma,,,count,,paleoceanography,,,N
+## o.univer	Orbulina universa,,,count,,paleoceanography,,,N
+## p.obliq	Pulleniatina obliquiloculata,,,count,,paleoceanography,,,N
+## sphaeropsis.sp	Sphaeroidinellopsis spp.,,,count,,paleoceanography,,,N
+## tia.quinq	Turborotalia quinqueloba,,,count,,paleoceanography,,,N
+## forams-other	Unidentified foraminifers,,,count,,paleoceanography,,,N
+## forams-b	Benthic Foraminifers,,,count,,paleoceanography,,,N
+#------------------------
+# Data
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Value: NA
+SampleID	CruiseID	CruiseSiteID	CoreHole	CoreID	CoreSect	depth-core-top	depth-core-bot	depth-core-mid	depth_m	age_Ma	c.niti	d.altisp	d.baroem	g.apert	g.bull	g.calid	g.decora	g.digit	g.eamesi	g.falco	g.incisa	g.nepen	g.obesa	g.praed	g.pseudob	g.rubes	g.umbil	g.woodi	globirina.sp	g.aequi	g.siphon	g.glut	g.congl	g.fistul	g.obliq	g.rub	g.sac	g.tenell	globinoides.sp	g.conglom	g.venez	g.sphericon	g.crass	g.crsula	g.hirsu	g.infla	g.limb	g.margar	g.menar	g.multic	g.praep	g.pumi	g.scit	g.tosaen	g.trunc	g.tumi	g.ungul	globorot.sp	g.hexag	n.acost	n.atlan-r	n.atlan-l	n.contin	n.duter	n.humer	n.pachy-r	n.pachy-l	neoqrina.sp	dupac	o.univer	p.obliq	sphaeropsis.sp	tia.quinq	forams-other	forams-b	
+1	145	883	B	14H	1	5	10	7.5	121.95	3.087	0	0	0	0	86	0	0	0	0	0	0	0	0	0	0	0	135	0	0	0	0	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	28	20	0	0	0	6	10	0	0	0	0	0	20	4	6	
+2	145	883	B	14H	1	45	50	47.5	122.35	3.091	0	0	0	0	45	0	0	0	0	0	3	0	0	0	0	0	10	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	70	84	0	0	0	42	1	0	0	0	0	0	0	0	57	
+3	145	883	B	14H	1	85	90	87.5	122.75	3.095	0	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	96	57	0	0	0	83	1	0	0	0	0	0	0	2	21	
+4	145	883	B	14H	1	121	126	123.5	123.11	3.099	0	0	0	0	24	0	0	0	0	0	5	0	0	0	0	0	15	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	117	117	0	0	0	35	5	0	0	0	0	0	3	1	8	
+5	145	883	B	14H	2	15	20	17.5	123.55	3.104	0	0	0	0	49	0	0	0	0	0	2	0	0	0	0	0	3	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	126	79	0	0	0	28	3	0	0	0	0	0	1	1	18	
+6	145	883	B	14H	2	55	60	57.5	123.95	3.108	0	0	0	0	20	0	0	0	0	0	2	0	0	0	0	0	12	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	44	44	0	0	0	3	4	0	0	0	0	0	2	4	32	
+7	145	883	B	14H	2	90	95	92.5	124.3	3.111	0	0	0	0	46	0	0	0	0	0	5	0	0	0	0	0	18	0	0	0	0	18	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	122	100	0	0	0	20	1	0	0	0	0	0	0	1	10	
+8	145	883	B	14H	2	135	140	137.5	124.75	3.116	0	0	0	0	46	0	0	0	0	0	3	0	0	0	0	0	19	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	102	98	0	0	0	12	6	0	0	0	0	0	6	3	7	
+9	145	883	B	14H	3	25	30	27.5	125.15	3.12	0	0	0	0	98	0	0	0	0	0	3	0	0	0	0	0	29	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	59	75	0	0	0	14	3	0	0	0	0	0	2	3	20	
+10	145	883	B	14H	3	65	70	67.5	125.55	3.124	0	0	0	0	52	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	99	95	0	0	0	10	1	0	0	0	0	0	2	3	23	
+11	145	883	B	14H	3	102	107	104.5	125.92	3.128	0	0	0	0	171	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	41	16	0	0	0	23	0	0	0	0	0	0	0	0	0	
+12	145	883	B	14H	3	145	150	147.5	126.35	3.132	0	0	0	0	121	0	0	0	0	0	0	0	0	0	0	0	51	0	0	0	0	37	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	50	5	0	0	0	8	4	0	0	0	0	0	3	4	6	
+13	145	883	B	14H	4	35	40	37.5	126.75	3.136	0	0	0	0	34	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	33	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	62	20	0	0	0	5	1	0	0	0	0	0	0	1	27	
+14	145	883	B	14H	4	75	80	77.5	127.15	3.14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	
+15	145	883	B	14H	4	110	115	112.5	127.5	3.144	0	0	0	0	63	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	30	34	0	0	0	0	5	0	0	0	0	0	0	0	45	
+16	145	883	B	14H	5	2	10	6	127.935	3.148	0	0	0	0	181	0	0	0	0	0	0	0	0	0	0	0	79	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	9	12	0	0	0	0	3	0	0	0	0	0	3	6	15	
+17	145	883	B	14H	5	45	50	47.5	128.35	3.152	0	0	0	0	201	0	0	0	0	0	0	0	0	0	0	0	21	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	48	11	0	0	0	1	0	0	10	1	0	0	0	0	4	
+18	145	883	B	14H	5	125	130	127.5	129.15	3.16	0	0	0	0	116	0	0	0	0	0	1	0	0	0	0	0	22	0	0	0	0	52	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	75	28	0	0	0	12	2	0	0	0	0	0	0	0	11	
+19	145	883	B	14H	6	15	20	17.5	129.55	3.164	0	0	0	0	125	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	48	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	87	15	0	0	0	12	0	0	0	0	0	0	0	0	20	
+20	145	883	B	14H	6	55	60	57.5	129.95	3.169	0	0	0	0	170	0	0	0	0	0	0	0	0	0	0	0	27	0	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	58	15	0	0	0	4	0	0	8	0	0	0	0	1	4	
+21	145	883	B	14H	6	90	95	92.5	130.3	3.087	0	0	0	0	152	0	0	0	0	0	0	0	0	0	0	0	27	0	0	0	0	29	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	93	2	0	0	0	11	2	0	0	0	0	0	2	0	0	
+22	145	883	B	14H	6	136	141	138.5	130.76	3.1	0	0	0	0	98	0	0	0	0	0	0	0	0	0	0	0	42	0	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	104	36	0	0	0	17	1	0	0	2	0	0	0	7	1	
+23	145	883	B	14H	7	25	30	27.5	131.15	3.104	0	0	0	0	263	0	0	0	0	0	4	0	0	0	0	0	8	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	45	7	0	0	0	12	1	0	0	0	0	0	0	6	2	
+24	145	883	B	14H	7	65	70	67.5	131.55	3.106	0	0	0	0	185	0	0	0	0	0	0	0	0	0	0	0	78	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	44	13	0	0	0	7	0	0	2	2	0	0	0	1	17	
+25	145	883	B	15H	1	5	10	7.5	131.45	3.107	0	0	0	0	174	0	0	0	0	0	0	0	0	0	0	0	46	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	86	9	0	0	0	2	0	0	0	0	0	0	0	2	36	
+26	145	883	B	15H	1	45	50	47.5	131.85	3.109	0	0	0	0	124	0	0	0	0	0	0	0	0	0	0	0	32	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	37	61	0	0	0	9	0	0	31	0	0	0	0	0	35	
+27	145	883	B	15H	1	85	90	87.5	132.25	3.113	0	0	0	0	200	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	45	5	0	0	0	9	1	0	0	0	0	0	1	4	0	
+28	145	883	B	15H	2	15	20	17.5	133.05	3.119	0	0	0	0	39	0	0	0	0	0	6	0	0	0	0	0	20	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	113	94	0	0	0	28	6	0	0	0	0	0	0	2	162	
+29	145	883	B	15H	2	51	56	53.5	133.405	3.122	0	0	0	0	189	0	0	0	0	0	0	0	0	0	0	0	42	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	103	4	0	0	0	2	0	0	0	2	0	0	0	0	5	
+30	145	883	B	15H	2	135	140	137.5	134.25	3.131	0	0	0	0	188	0	0	0	0	0	0	0	0	0	0	0	65	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	65	13	0	0	0	8	3	0	10	0	0	0	1	0	0	
+31	145	883	B	15H	2	135	140	137.5	134.25	3.131	0	0	0	0	199	0	0	0	0	0	0	0	0	0	0	0	33	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	58	2	0	0	0	6	0	0	0	0	0	0	0	0	1	
+32	145	883	B	15H	3	25	30	27.5	134.65	3.135	0	0	0	0	71	0	0	0	0	0	1	0	0	0	0	0	16	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	85	96	0	0	0	19	2	0	0	0	0	0	0	1	0	
+33	145	883	B	15H	3	65	70	67.5	135.05	3.139	0	0	0	0	209	0	0	0	0	0	0	0	0	0	0	0	40	0	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	24	6	0	0	0	7	0	0	0	0	0	0	0	4	5	
+34	145	883	B	15H	3	102	107	104.5	135.42	3.143	0	0	0	0	78	0	0	0	0	0	4	0	0	0	0	0	20	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	84	112	0	0	0	9	4	0	0	0	0	0	0	6	1	
+35	145	883	B	15H	3	145	150	147.5	135.85	3.147	0	0	0	0	197	0	0	0	0	0	0	0	0	0	0	0	49	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	29	11	0	0	0	6	2	0	0	0	0	0	0	9	0	
+36	145	883	B	15H	4	35	40	37.5	136.25	3.151	0	0	0	0	105	0	0	0	0	0	2	0	0	0	0	0	28	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	81	64	0	0	0	5	3	0	0	0	0	0	2	4	1	
+37	145	883	B	15H	4	75	80	77.5	136.65	3.155	0	0	0	0	209	0	0	0	0	0	0	0	0	0	0	0	44	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	33	6	0	0	0	2	0	0	0	0	0	0	0	2	0	
+38	145	883	B	15H	4	111	116	113.5	137.01	3.159	0	0	0	0	102	0	0	0	0	0	1	0	0	0	0	0	18	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	97	92	0	0	0	8	1	0	0	0	0	0	1	5	1	
+39	145	883	B	15H	5	5	10	7.5	137.45	3.163	0	0	0	0	225	0	0	0	0	0	0	0	0	0	0	0	48	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	24	2	0	0	0	0	1	0	0	0	0	0	0	0	0	
+40	145	883	B	15H	5	46	51	48.5	137.86	3.167	0	0	0	0	130	0	0	0	0	0	1	0	0	0	0	0	26	0	0	0	0	11	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	91	99	0	0	0	2	1	0	0	0	0	0	0	0	0	
+41	145	883	B	15H	5	86	91	88.5	138.26	3.171	0	0	0	0	235	0	0	0	0	0	0	0	0	0	0	0	41	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	29	4	0	0	0	3	0	0	0	0	0	0	0	2	0	
+42	145	883	B	15H	5	126	131	128.5	138.66	3.175	0	0	0	0	117	0	0	0	0	0	0	0	0	0	0	0	23	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	83	111	0	0	0	1	1	0	0	4	0	0	0	3	1	
+43	145	883	B	15H	6	15	20	17.5	139.05	3.179	0	0	0	0	250	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	42	3	0	0	0	0	0	0	0	0	0	0	0	0	1	
+44	145	883	B	15H	6	50	55	52.5	139.4	3.183	0	0	0	0	175	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	54	32	0	0	0	7	1	0	2	0	0	0	0	1	1	
+45	145	883	B	15H	6	91	96	93.5	139.81	3.187	0	0	0	0	226	0	0	0	0	0	0	0	0	0	0	0	18	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	51	4	0	0	0	1	0	0	0	0	0	0	0	2	0	
+46	145	883	B	15H	7	35	40	37.5	140.25	3.191	0	0	0	0	87	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	28	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	99	67	0	0	0	6	1	0	0	0	0	0	0	1	19	
+47	145	883	B	15H	7	66	71	68.5	140.56	3.195	0	0	0	0	216	0	0	0	0	0	1	0	0	0	0	0	36	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	47	7	0	0	1	3	1	0	0	1	0	0	1	2	1	
+48	145	883	B	16H	1	5	10	7.5	140.95	3.216	0	0	0	0	203	0	0	0	0	0	1	0	0	0	0	0	42	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	42	11	0	0	0	7	1	0	0	0	0	0	0	1	18	
+49	145	883	B	16H	1	45	50	47.5	141.35	3.22	0	0	0	0	261	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	20	9	0	0	0	2	1	0	0	0	0	0	0	0	1	
+50	145	883	B	16H	1	85	90	87.5	141.75	3.224	0	0	0	0	193	0	0	0	0	0	0	0	0	0	0	0	32	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	35	0	0	0	0	1	0	10	0	0	0	0	3	95	
+51	145	883	B	16H	1	125	130	127.5	142.155	3.228	0	0	0	0	295	0	0	0	0	0	0	0	0	0	0	0	17	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	3	0	
+52	145	883	B	16H	2	15	20	17.5	142.55	3.231	0	0	0	0	77	0	0	0	0	0	2	0	0	0	0	0	16	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	84	127	0	0	0	0	0	0	0	0	0	0	0	1	0	
+53	145	883	B	16H	2	50	55	52.5	142.9	3.234	0	0	0	0	216	0	0	0	0	0	0	0	0	0	0	0	56	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	12	0	0	0	0	0	0	0	0	0	0	0	5	1	
+54	145	883	B	16H	2	90	95	92.5	143.3	3.237	0	0	0	0	242	0	0	0	0	0	0	0	0	0	0	0	52	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	17	0	0	0	1	0	0	0	0	0	0	0	1	18	
+55	145	883	B	16H	2	135	140	137.5	143.755	3.241	0	0	0	0	316	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	6	
+56	145	883	B	16H	3	25	30	27.5	144.15	3.244	0	0	0	0	182	0	0	0	0	0	2	0	0	0	0	0	32	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	28	54	0	0	0	0	2	0	0	0	0	0	0	5	1	
+57	145	883	B	16H	3	65	70	67.5	144.55	3.247	0	0	0	0	293	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	6	0	0	0	0	0	0	0	0	0	0	0	1	2	
+58	145	883	B	16H	3	101	106	103.5	144.91	3.25	0	0	0	0	219	0	0	0	0	0	0	0	0	0	0	0	44	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	40	25	0	0	0	2	0	0	1	0	0	0	0	0	0	
+59	145	883	B	16H	3	145	150	147.5	145.35	3.254	0	0	0	0	264	0	0	0	0	0	0	0	0	0	0	0	62	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	2	0	0	0	0	0	0	0	0	0	0	0	0	0	
+60	145	883	B	16H	4	35	40	37.5	145.75	3.257	0	0	0	0	201	0	0	0	0	0	0	0	0	0	0	0	64	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	32	24	0	0	0	0	1	0	0	0	0	0	0	0	0	
+61	145	883	B	16H	4	75	80	77.5	146.15	3.26	0	0	0	0	225	0	0	0	0	0	1	0	0	0	0	0	59	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	16	11	0	0	0	2	2	0	0	1	0	0	0	1	9	
+62	145	883	B	16H	4	111	115	113	146.51	3.263	0	0	0	0	162	0	0	0	0	0	3	0	0	0	0	0	68	0	0	0	0	17	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	36	22	0	0	0	3	2	0	0	1	0	0	0	1	0	
+63	145	883	B	16H	5	5	10	7.5	146.95	3.267	0	0	0	0	249	0	0	0	0	0	0	0	0	0	0	0	53	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	15	5	0	0	0	0	0	0	0	0	0	0	0	2	5	
+64	145	883	B	16H	5	45	50	47.5	147.35	3.27	0	0	0	0	189	0	0	0	0	0	3	0	0	0	0	0	50	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	26	31	0	0	0	0	4	0	0	0	0	0	0	3	0	
+65	145	883	B	16H	5	85	90	87.5	147.75	3.273	0	0	0	0	233	0	0	0	0	0	1	0	0	0	0	0	58	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	30	8	0	0	0	3	0	0	0	0	0	0	0	2	1	
+66	145	883	B	16H	5	120	125	122.5	148.1	3.276	0	0	0	0	163	0	0	0	0	0	0	0	0	0	0	0	72	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	33	27	0	0	0	3	3	0	0	0	0	0	0	1	2	
+67	145	883	B	16H	6	15	20	17.5	148.55	3.28	0	0	0	0	212	0	0	0	0	0	0	0	0	0	0	0	118	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	5	1	0	0	0	0	0	0	0	0	0	0	0	0	0	
+68	145	883	B	16H	6	50	55	52.5	148.9	3.283	0	0	0	0	152	0	0	0	0	0	0	0	0	0	0	0	108	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	21	23	0	0	0	5	2	0	0	0	0	0	0	0	0	
+69	145	883	B	16H	6	90	95	92.5	149.3	3.286	0	0	0	0	133	0	0	0	0	0	0	0	0	0	0	0	18	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	2	0	0	0	0	0	0	0	0	0	0	0	0	68	
+70	145	883	B	16H	6	135	140	137.5	149.75	3.289	0	0	0	0	145	0	0	0	0	0	0	0	0	0	0	0	111	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	19	27	0	0	0	1	1	0	0	0	0	0	0	0	0	
+71	145	883	B	16H	7	25	30	27.5	150.15	3.293	0	0	0	0	235	0	0	0	0	0	0	0	0	0	0	0	90	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	13	10	0	0	0	0	0	0	0	0	0	0	0	2	5	
+72	145	883	B	16H	7	64	69	66.5	150.54	3.296	0	0	0	0	143	0	0	0	0	0	0	0	0	0	0	0	55	0	0	0	0	43	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	22	34	0	0	0	0	0	0	1	0	0	0	0	2	120	
+73	145	883	C	16H	1	5	10	7.5	136.05	3.184	0	0	0	0	197	0	0	0	0	0	0	0	0	0	0	0	28	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	31	6	0	0	0	3	1	0	36	1	0	0	0	0	38	
+74	145	883	C	16H	1	45	50	47.5	136.45	3.188	0	0	0	0	218	0	0	0	0	0	0	0	0	0	0	0	43	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	60	1	0	0	0	2	0	0	0	1	0	0	0	1	1	
+75	145	883	C	16H	1	85	90	87.5	136.85	3.192	0	0	0	0	196	0	0	0	0	0	0	0	0	0	0	0	34	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	53	24	0	0	0	10	0	0	0	0	0	0	0	0	3	
+76	145	883	C	16H	1	125	130	127.5	137.25	3.197	0	0	0	0	221	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	68	5	0	0	0	1	0	0	0	0	0	0	0	2	1	
+77	145	883	C	16H	2	15	20	17.5	137.65	3.202	0	0	0	0	130	0	0	0	0	0	0	0	0	0	0	0	73	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	66	33	0	0	0	5	0	0	0	1	0	0	0	2	0	
+78	145	883	C	16H	2	55	60	57.5	138.05	3.206	0	0	0	0	228	0	0	0	0	0	0	0	0	0	0	0	31	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	40	4	0	0	0	3	0	0	0	0	0	0	0	3	2	
+79	145	883	C	16H	2	95	100	97.5	138.45	3.21	0	0	0	0	209	0	0	0	0	0	0	0	0	0	0	0	31	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	33	18	0	0	0	7	1	0	0	0	0	0	2	1	1	
+80	145	883	C	16H	2	135	140	137.5	138.855	3.214	0	0	0	0	251	0	0	0	0	0	0	0	0	0	0	0	39	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	29	0	0	0	0	0	0	0	0	0	0	0	0	0	15	
+81	145	883	C	16H	3	25	30	27.5	139.25	3.219	0	0	0	0	170	0	0	0	0	0	0	0	0	0	0	0	26	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	44	38	0	0	0	18	1	0	0	0	0	0	0	4	1	
+82	145	883	C	16H	3	65	70	67.5	139.65	3.222	0	0	0	0	219	0	0	0	0	0	0	0	0	0	0	0	37	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	39	6	0	0	0	5	0	0	0	0	0	0	0	1	0	
+83	145	883	C	16H	3	105	110	107.5	140.05	3.227	0	0	0	0	192	0	0	0	0	0	0	0	0	0	0	0	40	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	33	30	0	0	0	1	1	0	0	0	0	0	0	2	0	
+84	145	883	C	16H	3	145	150	147.5	140.45	3.231	0	0	0	0	197	0	0	0	0	0	0	0	0	0	0	0	80	0	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	25	7	0	0	0	8	0	0	0	0	0	0	0	1	19	

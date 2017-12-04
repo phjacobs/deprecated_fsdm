@@ -1,0 +1,278 @@
+# A global planktic foraminifer census data set for the Pliocene ocean
+#-----------------------------------------------------------------------
+#               World Data Center for Paleoclimatology, Boulder
+#                                   and
+#                      NOAA Paleoclimatology Program
+#-----------------------------------------------------------------------
+# NOTE: Please cite original publication, online resource and date accessed when using this data.
+# If there is no publication information, please cite Investigator, title, online resource and date accessed.
+#
+# Description/Documentation lines begin with #
+# Data lines have no #
+#
+# Online_Resource: http://www.ncdc.noaa.gov/paleo/study/19281
+# Online_Resource: http://www1.ncdc.noaa.gov/pub/data/paleo/contributions_by_author/foley2015/
+#
+# Archive: Paleoceanography
+#
+# Parameter_Keywords: sea surface temperature
+#---------------------------------------
+# Contribution_Date
+#    Date: 2015-10-02
+#---------------------------------------
+# Title
+#    Study_Name: A global planktic foraminifer census data set for the Pliocene ocean
+#---------------------------------------
+# Investigators
+#      Investigators: Foley, Kevin; Robinson, Marci; Dowsett, Harry; Poore, Richard; Stoll, Danielle; Polanco, Emerson; Wiggs, Linda; Caballero, Rocio; Verardo, Stacy; Strother, Stephanie; West, Stephanie; Lutz, Brendan; Brown, Sarah
+#---------------------------------------
+# Description and Notes
+#        Description: Compilers: Foley, Kevin; Robinson, Marci; Dowsett, Harry
+#         Provided Keywords: Paleoclimatology, Paleoceanography, Paleobiology, Pliocene, Piacenzian, Sea Surface Temperature, plankton, planktonic foraminifer, global warming
+#---------------------------------------
+# Publication
+# Authors: Harry J. Dowsett, Marci M. Robinson, Alan M. Haywood, Ulrich Salzmann, Daniel Hill, Linda Sohl, Mark Chandler, Mark Williams, Kevin Foley, and Danielle K. Stoll
+# Published_Date_or_Year: 2010
+# Published_Title: The PRISM3D paleoenvironmental reconstruction
+# Journal_Name: Stratigraphy
+# Volume: 7
+# Issue: 2, 3
+# Pages: 123 - 139
+# Report Number: 
+# DOI: 
+# Abstract: The Pliocene Research, Interpretation and Synoptic Mapping (PRISM) paleoenvironmental reconstruction is an internally consistent and comprehensive global synthesis of a past interval of relatively warm and stable climate. It is regularly used in model studies that aim to better understand Pliocene climate, to improve model performance in future climate scenarios, and to distinguish model-dependent climate effects. The PRISM reconstruction is constantly evolving in order to incorporate additional geographic sites and environmental parameters, and is continuously refined by independent research findings. The new PRISM three dimensional (3D) reconstruction differs from previous PRISM reconstructions in that it includes a subsurface ocean temperature reconstruction, integrates geochemical sea surface temperature proxies to supplement the faunal-based temperature estimates, and uses numerical models for the first time to augment fossil data. Here we describe the components of PRISM3D and describe new findings specific to the new reconstruction. Highlights of the new PRISM3D reconstruction include removal of Hudson Bay and the Great Lakes and creation of open waterways in locations where the current bedrock elevation is less than 25m above modern sea level, due to the removal of the West Antarctic Ice Sheet and the reduction of the East Antarctic Ice Sheet. The mid-Piacenzian oceans were characterized by a reduced east-west temperature gradient in the equatorial Pacific, but PRISM3D data do not imply permanent El Ni̱o conditions. The reduced equator-to-pole temperature gradient that characterized previous PRISM reconstructions is supported by significant displacement of vegetation belts toward the poles, is extended into the Arctic Ocean, and is confirmed by multiple proxies in PRISM3D. Arctic warmth coupled with increased dryness suggests the formation of warm and salty paleo North Atlantic Deep Water (NADW) and a more vigorous thermohaline circulation system that may have provided the enhanced ocean heat transport necessary to move warm surface water to the Arctic. New deep ocean temperature data also suggests greater warmth and further southward penetration of paleo NADW.
+#---------------------------------------
+# Funding_Agency
+#    Funding_Agency_Name: USGS Climate and Land Use Change Research and Development Program
+#    Grant: 
+#---------------------------------------
+# Site Information
+# Site_Name: DSDP 552A
+# Location: North Atlantic
+# Country: 
+# Northernmost_Latitude: 56.0427
+# Southernmost_Latitude: 56.0427
+# Easternmost_Longitude: -23.2313
+# Westernmost_Longitude: -23.2313
+# Elevation: -2301
+#---------------------------------------
+# Data_Collection
+#   Collection_Name: DSDP 552A Foley15
+#   First_Year: 5045000
+#   Last_Year: 2388000
+#   Time_Unit: cal yr BP
+#   Core_Length: 
+#   Notes: 
+#---------------------------------------
+# Chronology: 
+# Age models for most core sites contained in the PRISM planktic foram census data set are based upon combinations of faunal and floral biostratigraphy and calibrated events, paleomagnetic stratigraphy, and tephrachronology, utilizing stratigraphic data presented in DSDP and ODP Leg volumes and other articles. The following core sites differ in that age models were developed by tuning variations in oxygen isotope or magnetic susceptibility records to changes in insolation due to variations in the Earth's orbit. (607, 610, 659, 763, 806, 847, 852, 925, 1014, 1237, and 1239)
+#---------------------------------------
+# Variables
+# Data variables follow that are preceded by "##" in columns one and two.
+# Variables list, one per line, shortname-tab-longname components (9 components: what, material, error, units, seasonality, archive, detail, method, C or N for Character or Numeric data)
+## SampleID	Sample ID,,,,,paleoceanography,,,C
+## CruiseID	Cruise ID,,,,,paleoceanography,,,C
+## CruiseSiteID	Cruise Site,,,,,paleoceanography,,,C
+## CoreHole	Core Hole,,,,,paleoceanography,,,C
+## CoreID	Core ID,,,,,paleoceanography,,,C
+## CoreSect	Core Section,,,,,paleoceanography,,,C
+## depth-core-top	Top Depth in Core Section,,,cm,,paleoceanography,,,N
+## depth-core-bot	Bottom Depth in Core Section,,,cm,,paleoceanography,,,N
+## depth-core-mid	Mid Depth in Core Section,,,cm,,paleoceanography,,,N
+## depth_m	depth,,,m,,paleoceanography,,,N
+## age_Ma	age,,,Million years before present,,paleoceanography,,,N
+## c.niti	Candeina nitida,,,count,,paleoceanography,,,N
+## d.altisp	Dentoglobigerina altispira,,,count,,paleoceanography,,,N
+## d.baroem	Dentoglobigerina baroemoensis,,,count,,paleoceanography,,,N
+## g.apert	Globigerina apertura,,,count,,paleoceanography,,,N
+## g.bull	Globigerina bulloides,,,count,,paleoceanography,,,N
+## g.calid	Globigerina calida,,,count,,paleoceanography,,,N
+## g.decora	Globigerina decoraperta,,,count,,paleoceanography,,,N
+## g.digit	Globigerina digitata,,,count,,paleoceanography,,,N
+## g.eamesi	Globigerina eamesi,,,count,,paleoceanography,,,N
+## g.falco	Globigerina falconensis,,,count,,paleoceanography,,,N
+## g.incisa	Globigerina incisa,,,count,,paleoceanography,,,N
+## g.nepen	Globigerina nepenthes,,,count,,paleoceanography,,,N
+## g.obesa	Globigerina obesa,,,count,,paleoceanography,,,N
+## g.praed	Globigerina praedigitata,,,count,,paleoceanography,,,N
+## g.pseudob	Globigerina pseudobesa,,,count,,paleoceanography,,,N
+## g.rubes	Globigerina rubescens,,,count,,paleoceanography,,,N
+## g.umbil	Globigerina umbilicata,,,count,,paleoceanography,,,N
+## g.woodi	Globigerina woodi,,,count,,paleoceanography,,,N
+## globirina.sp	Globigerina spp.,,,count,,paleoceanography,,,N
+## g.aequi	Globigerinella aequilateralis,,,count,,paleoceanography,,,N
+## g.siphon	Globigerinella siphonifera,,,count,,paleoceanography,,,N
+## g.glut	Globigerinita glutinata,,,count,,paleoceanography,,,N
+## g.congl	Globigerinoides conglobatus,,,count,,paleoceanography,,,N
+## g.fistul	Globigerinoides fistulosis,,,count,,paleoceanography,,,N
+## g.obliq	Globigerinoides obliquus,,,count,,paleoceanography,,,N
+## g.rub	Globigerinoides ruber,,,count,,paleoceanography,,,N
+## g.sac	Globigerinoides sacculifer,,,count,,paleoceanography,,,N
+## g.tenell	Globigerinoides tenellus,,,count,,paleoceanography,,,N
+## globinoides.sp	Globigerinoides spp.,,,count,,paleoceanography,,,N
+## g.conglom	Globoquadrina conglomerata,,,count,,paleoceanography,,,N
+## g.venez	Globoquadrina venezuelana,,,count,,paleoceanography,,,N
+## g.sphericon	Globorotalia (spheri)conomiozea,,,count,,paleoceanography,,,N
+## g.crass	Globorotalia crassaformis,,,count,,paleoceanography,,,N
+## g.crsula	Globorotalia crassula,,,count,,paleoceanography,,,N
+## g.hirsu	Globorotalia hirsuta,,,count,,paleoceanography,,,N
+## g.infla	Globorotalia inflata,,,count,,paleoceanography,,,N
+## g.limb	Globorotalia limbata,,,count,,paleoceanography,,,N
+## g.margar	Globorotalia margaritae,,,count,,paleoceanography,,,N
+## g.menar	Globorotalia menardii,,,count,,paleoceanography,,,N
+## g.multic	Globorotalia multicamerata,,,count,,paleoceanography,,,N
+## g.praep	Globorotalia praepumilio,,,count,,paleoceanography,,,N
+## g.pumi	Globorotalia pumilio,,,count,,paleoceanography,,,N
+## g.scit	Globorotalia scitula,,,count,,paleoceanography,,,N
+## g.tosaen	Globorotalia tosaensis,,,count,,paleoceanography,,,N
+## g.trunc	Globorotalia truncatulinoides,,,count,,paleoceanography,,,N
+## g.tumi	Globorotalia tumida,,,count,,paleoceanography,,,N
+## g.ungul	Globorotalia ungulata,,,count,,paleoceanography,,,N
+## globorot.sp	Globorotalia spp.,,,count,,paleoceanography,,,N
+## g.hexag	Globorotaloides hexagona,,,count,,paleoceanography,,,N
+## n.acost	Neogloboquadrina acostaensis,,,count,,paleoceanography,,,N
+## n.atlan-r	Neogloboquadrina atlantica right coiling,,,count,,paleoceanography,,,N
+## n.atlan-l	Neogloboquadrina atlantica left coiling,,,count,,paleoceanography,,,N
+## n.contin	Neogloboquadrina continuosa,,,count,,paleoceanography,,,N
+## n.duter	Neogloboquadrina dutertrei,,,count,,paleoceanography,,,N
+## n.humer	Neogloboquadrina humerosa,,,count,,paleoceanography,,,N
+## n.pachy-r	Neogloboquadrina pachyderma right coiling,,,count,,paleoceanography,,,N
+## n.pachy-l	Neogloboquadrina pachyderma left coiling,,,count,,paleoceanography,,,N
+## neoqrina.sp	Neogloboquadrina spp.,,,count,,paleoceanography,,,N
+## dupac	Transitional between N. dutertrei and N. pachyderma,,,count,,paleoceanography,,,N
+## o.univer	Orbulina universa,,,count,,paleoceanography,,,N
+## p.obliq	Pulleniatina obliquiloculata,,,count,,paleoceanography,,,N
+## sphaeropsis.sp	Sphaeroidinellopsis spp.,,,count,,paleoceanography,,,N
+## tia.quinq	Turborotalia quinqueloba,,,count,,paleoceanography,,,N
+## forams-other	Unidentified foraminifers,,,count,,paleoceanography,,,N
+## forams-b	Benthic Foraminifers,,,count,,paleoceanography,,,N
+#------------------------
+# Data
+# Data lines follow (have no #)
+# Data line format - tab-delimited text, variable short name as header
+# Missing Value: NA
+SampleID	CruiseID	CruiseSiteID	CoreHole	CoreID	CoreSect	depth-core-top	depth-core-bot	depth-core-mid	depth_m	age_Ma	c.niti	d.altisp	d.baroem	g.apert	g.bull	g.calid	g.decora	g.digit	g.eamesi	g.falco	g.incisa	g.nepen	g.obesa	g.praed	g.pseudob	g.rubes	g.umbil	g.woodi	globirina.sp	g.aequi	g.siphon	g.glut	g.congl	g.fistul	g.obliq	g.rub	g.sac	g.tenell	globinoides.sp	g.conglom	g.venez	g.sphericon	g.crass	g.crsula	g.hirsu	g.infla	g.limb	g.margar	g.menar	g.multic	g.praep	g.pumi	g.scit	g.tosaen	g.trunc	g.tumi	g.ungul	globorot.sp	g.hexag	n.acost	n.atlan-r	n.atlan-l	n.contin	n.duter	n.humer	n.pachy-r	n.pachy-l	neoqrina.sp	dupac	o.univer	p.obliq	sphaeropsis.sp	tia.quinq	forams-other	forams-b	
+1	81	552	A	9	2	NA	NA	11	40.61	2.388	0	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	15	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	30	42	40	0	0	0	79	5	0	79	1	0	0	6	2	2	
+2	81	552	A	9	2	NA	NA	31	40.81	2.395	0	0	0	0	59	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	27	104	0	0	0	39	15	0	22	0	0	0	4	7	8	
+3	81	552	A	9	2	NA	NA	49	40.99	2.409	0	0	0	0	23	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	3	0	0	0	0	0	0	3	23	208	0	0	0	19	5	0	17	1	0	0	2	3	12	
+4	81	552	A	9	2	NA	NA	89	41.39	2.44	0	0	0	0	29	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0	0	9	21	139	0	0	0	22	9	0	21	1	0	0	2	2	5	
+5	81	552	A	9	2	NA	NA	109	41.59	2.456	0	0	0	0	30	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	3	0	0	24	0	0	0	0	0	0	1	0	0	0	0	0	0	27	22	98	0	0	0	26	2	0	46	1	0	0	7	3	1	
+6	81	552	A	9	2	NA	NA	131	41.81	2.473	0	0	0	0	49	0	0	0	0	7	0	0	0	0	0	0	0	0	0	4	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	5	0	0	0	0	0	0	0	4	200	0	0	0	4	5	0	5	0	0	0	4	4	13	
+7	81	552	A	9	2	NA	NA	148	41.98	2.486	0	0	0	0	8	0	0	0	0	1	0	0	0	0	0	0	0	0	5	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	10	0	0	0	0	0	0	10	11	225	0	0	0	7	9	0	10	0	0	0	1	0	9	
+8	81	552	A	9	3	NA	NA	23	42.23	2.505	0	0	0	0	73	0	0	0	0	4	0	0	0	0	0	0	0	0	0	1	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	18	0	0	0	0	0	0	2	0	0	0	0	0	0	18	20	100	0	0	0	13	5	0	23	0	0	0	0	1	3	
+9	81	552	A	9	3	NA	NA	39	42.39	2.518	0	0	0	0	19	0	0	0	0	0	0	0	0	0	2	0	0	4	0	3	0	8	0	0	0	0	0	0	0	0	0	0	8	0	0	58	0	0	0	0	0	0	2	0	0	0	0	0	0	22	27	134	0	0	0	13	4	0	33	5	0	0	2	4	2	
+10	81	552	A	9	3	NA	NA	59	42.59	2.533	0	0	0	0	38	0	0	0	0	0	0	0	0	0	0	0	0	2	0	1	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	6	21	166	0	0	0	5	10	0	30	1	0	0	3	1	3	
+11	81	552	A	9	3	NA	NA	78	42.78	2.548	0	0	0	0	26	0	0	0	0	1	0	0	0	0	0	0	0	3	0	0	0	11	0	0	0	0	0	0	0	0	0	0	10	0	0	4	0	0	0	0	0	0	1	0	0	0	0	0	0	22	13	140	0	0	0	8	8	0	21	2	0	0	22	2	1	
+12	81	552	A	9	3	NA	NA	103	43.03	2.568	0	0	0	0	30	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	39	0	0	0	0	0	0	1	0	0	0	0	0	0	3	26	149	0	0	0	7	2	0	22	2	0	0	6	4	3	
+13	81	552	A	9	3	NA	NA	119	43.19	2.58	0	0	0	0	10	0	0	0	0	0	0	0	0	0	1	0	0	5	0	2	0	15	0	0	0	0	0	0	0	0	0	0	5	0	1	19	0	0	0	0	0	0	2	0	0	0	0	0	0	46	28	126	0	0	0	20	4	0	38	2	0	0	1	2	3	
+14	81	552	A	9	3	NA	NA	146	43.46	2.601	0	0	0	0	27	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	13	0	0	0	0	0	0	0	0	0	0	4	0	0	17	0	0	0	0	0	0	3	0	0	0	0	0	0	23	21	99	0	0	0	41	7	0	50	0	0	0	4	6	5	
+15	81	552	A	9	4	NA	NA	21	43.71	2.622	0	0	0	0	47	0	0	0	0	5	0	0	0	0	3	0	0	1	0	0	0	17	0	0	0	0	0	0	0	0	0	0	8	0	0	35	0	0	0	0	0	0	1	0	0	0	0	0	0	13	10	146	0	0	0	4	2	0	10	2	0	0	1	4	8	
+16	81	552	A	10	1	NA	NA	49	44.49	2.867	0	0	0	0	55	0	0	0	0	2	0	0	0	0	0	0	0	1	0	1	0	9	0	0	0	0	0	0	0	0	0	0	1	0	0	13	0	0	0	0	0	0	4	0	0	0	0	0	0	26	40	46	0	0	0	18	3	0	62	0	0	0	4	3	1	
+17	81	552	A	10	1	NA	NA	69	44.69	2.882	0	0	0	0	41	0	0	0	0	5	0	0	0	0	2	0	0	3	0	1	0	10	0	0	0	0	0	0	0	0	0	0	2	0	0	21	0	0	0	0	0	0	1	0	0	0	0	0	0	73	8	57	0	0	0	23	4	0	68	2	0	0	0	2	6	
+18	81	552	A	10	1	NA	NA	90	44.9	2.897	0	0	0	0	24	0	0	0	0	4	0	0	0	0	0	0	0	2	0	0	0	5	0	0	0	0	0	0	0	0	0	0	5	0	0	22	0	0	0	0	0	0	2	0	0	0	0	0	0	19	23	109	0	0	0	21	3	0	57	0	0	0	3	10	7	
+19	81	552	A	10	1	NA	NA	111	45.11	2.913	0	0	0	0	24	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	1	9	0	0	0	0	0	0	4	0	0	0	0	0	0	69	10	97	0	0	0	35	3	0	36	0	0	0	0	2	4	
+20	81	552	A	10	1	NA	NA	131	45.31	2.927	0	0	0	0	36	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	3	0	0	30	0	0	0	0	0	0	2	0	0	0	0	0	0	16	20	70	0	0	0	45	9	0	66	0	0	0	0	6	6	
+21	81	552	A	10	2	NA	NA	11	45.61	2.949	0	0	0	0	32	0	0	0	0	4	0	0	0	1	0	0	0	3	0	0	0	17	0	0	0	0	0	0	0	0	0	0	7	0	0	34	0	0	0	0	0	0	0	0	0	0	0	0	0	40	19	106	0	0	0	29	2	0	25	0	0	0	1	4	3	
+22	81	552	A	10	2	NA	NA	31	45.81	2.965	0	0	0	0	31	0	0	0	0	2	0	0	0	0	0	0	0	3	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	48	0	0	0	0	0	0	1	0	0	0	0	0	0	12	27	69	0	0	0	25	7	0	51	1	0	0	0	3	4	
+23	81	552	A	10	2	NA	NA	50	46	2.978	0	0	0	0	26	0	0	0	0	4	0	0	0	0	1	0	0	2	0	0	0	16	0	0	0	0	0	0	0	0	0	0	2	0	1	57	0	0	0	0	0	0	0	0	0	0	0	0	0	35	10	67	0	0	0	47	2	0	40	1	0	0	0	2	2	
+24	81	552	A	10	2	NA	NA	70	46.2	2.993	0	0	0	0	24	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	20	0	0	0	0	0	0	0	0	0	0	3	0	0	58	0	0	0	0	0	0	0	0	0	0	0	0	0	11	20	81	0	0	0	38	13	0	36	0	0	0	0	0	2	
+25	81	552	A	10	2	NA	NA	91	46.41	3.008	0	0	0	0	41	0	0	0	0	5	0	0	0	0	2	0	0	7	0	0	0	32	0	0	0	0	0	0	0	0	0	0	4	0	0	59	0	0	0	0	0	0	0	0	0	0	0	0	0	8	4	130	0	0	0	8	4	0	2	1	0	0	2	4	1	
+26	81	552	A	10	2	NA	NA	110	46.6	3.023	0	0	0	0	12	0	0	0	0	1	0	0	0	0	3	0	0	2	0	2	0	34	0	0	0	0	0	0	0	0	0	0	2	0	0	64	0	0	0	0	0	0	2	0	0	0	0	0	0	14	8	115	0	0	0	17	5	0	27	0	0	0	2	2	3	
+27	81	552	A	10	2	NA	NA	132	46.82	3.039	0	0	0	0	15	0	0	0	0	2	0	0	0	0	2	0	0	3	0	6	0	23	0	0	0	0	0	0	0	0	0	0	0	0	0	65	0	0	0	0	0	0	1	0	0	0	0	0	0	28	4	140	0	0	0	2	3	0	14	1	0	0	0	5	7	
+28	81	552	A	10	3	NA	NA	11	47.11	3.06	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	21	0	0	0	0	0	0	0	0	0	0	3	0	0	47	0	0	0	0	0	0	2	0	0	0	0	0	0	48	11	104	0	0	0	19	6	0	37	0	0	0	3	4	0	
+29	81	552	A	10	3	NA	NA	31	47.31	3.074	0	0	0	0	18	0	0	0	0	2	0	0	0	1	0	0	0	3	1	0	0	32	0	0	0	0	0	0	0	0	0	0	4	0	0	84	0	0	0	0	0	0	4	0	0	0	0	0	0	36	8	83	0	0	0	6	7	0	30	0	0	0	2	3	3	
+30	81	552	A	10	3	NA	NA	51	47.51	3.089	0	0	0	0	13	0	0	0	0	5	0	0	0	1	2	0	0	5	0	0	0	40	0	0	0	0	0	0	0	0	0	0	21	0	0	96	0	0	0	0	0	0	0	0	0	0	0	0	0	24	12	75	0	0	0	12	9	0	11	0	0	0	5	5	6	
+31	81	552	A	10	3	NA	NA	75	47.75	3.106	0	0	0	0	27	0	0	0	0	2	0	0	0	0	0	0	0	7	0	0	0	24	0	0	0	0	0	0	0	0	0	0	14	0	0	35	0	0	0	0	0	0	1	0	0	0	0	0	0	25	7	87	0	0	0	7	13	0	27	0	0	0	7	4	3	
+32	81	552	A	10	3	NA	NA	93	47.93	3.117	0	0	0	0	24	0	0	0	0	1	0	0	0	0	1	0	0	4	0	1	0	57	0	0	0	0	0	0	0	0	0	0	9	0	0	55	0	0	0	0	0	0	4	0	0	0	0	0	0	43	2	89	0	0	0	19	8	0	37	0	0	0	13	8	4	
+33	81	552	A	10	3	NA	NA	114	48.14	3.13	0	0	0	0	23	0	0	0	0	2	0	0	0	1	1	0	0	5	0	1	0	34	0	0	0	0	0	0	1	0	0	0	18	0	0	32	0	0	0	0	0	0	2	0	0	0	0	0	0	49	6	61	0	0	0	14	5	0	40	0	0	0	13	6	2	
+34	81	552	A	10	3	NA	NA	128	48.28	3.137	0	0	0	0	38	0	0	0	0	3	0	0	0	0	1	0	0	3	0	0	0	33	0	0	0	0	0	0	0	0	0	0	4	0	0	52	0	0	0	0	0	0	5	0	0	0	0	0	0	25	3	64	0	0	0	14	8	0	27	1	0	0	9	5	2	
+35	81	552	A	10	4	NA	NA	19	48.69	3.16	0	0	0	0	17	0	0	0	0	7	0	0	0	0	0	0	0	2	0	0	0	13	0	0	0	0	0	0	0	0	0	0	12	0	8	80	0	0	0	0	0	0	2	0	0	0	0	0	0	20	5	100	0	0	0	10	5	0	15	0	0	0	18	6	2	
+36	81	552	A	11	1	NA	NA	88	49.88	3.228	0	0	0	0	25	0	0	0	0	11	0	0	0	0	2	0	0	3	0	0	0	20	0	0	0	0	0	0	0	0	0	0	4	0	0	60	0	0	1	0	0	0	1	0	0	0	0	0	0	45	9	84	0	0	0	18	4	0	30	0	0	0	5	8	3	
+37	81	552	A	11	1	NA	NA	109	50.09	3.239	0	0	0	0	32	0	0	0	0	0	0	0	0	0	2	0	0	2	0	0	0	18	0	0	0	0	0	0	0	0	0	0	3	0	0	85	0	0	0	0	0	0	1	0	0	0	0	0	0	38	5	58	0	0	0	11	9	0	28	1	0	0	11	2	6	
+38	81	552	A	11	1	NA	NA	128	50.28	3.249	0	0	0	0	22	0	0	0	0	10	0	0	0	0	1	0	0	3	0	0	0	10	0	0	0	0	0	0	0	0	0	0	1	0	1	96	0	0	0	0	0	0	5	0	0	0	0	0	0	39	5	89	0	0	0	8	10	0	20	1	0	0	7	5	4	
+39	81	552	A	11	2	NA	NA	11	50.61	3.265	0	0	0	0	56	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	3	0	0	59	0	0	0	0	0	0	2	0	0	0	0	0	0	3	9	118	0	0	0	16	7	0	38	1	0	0	6	3	2	
+40	81	552	A	11	2	NA	NA	31	50.81	3.275	0	0	0	0	44	0	0	0	0	7	0	0	0	0	0	0	0	4	0	1	0	7	0	0	0	0	0	0	1	0	0	0	0	0	3	83	0	0	0	0	0	0	1	0	0	0	0	0	0	17	5	82	0	0	0	10	12	0	19	1	0	0	4	6	2	
+41	81	552	A	11	2	NA	NA	54	51.04	3.287	0	0	0	0	122	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	51	0	0	0	0	0	0	2	0	0	0	0	0	0	8	3	86	0	0	0	1	6	0	9	0	0	0	1	0	1	
+42	81	552	A	11	2	NA	NA	84	51.34	3.303	0	0	0	0	146	0	0	0	0	4	0	0	0	0	3	0	0	3	0	2	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	17	10	104	0	0	0	9	12	0	13	0	0	0	4	1	0	
+43	81	552	A	11	2	NA	NA	109	51.59	3.316	0	0	0	0	97	0	0	0	0	1	0	0	0	0	0	0	0	2	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	5	0	0	0	0	0	0	13	12	77	0	0	0	16	10	0	9	0	0	0	3	5	2	
+44	81	552	A	11	2	NA	NA	131	51.81	3.327	0	0	0	0	115	0	0	0	0	2	0	0	0	0	0	0	0	4	0	1	0	8	0	0	0	0	0	0	0	0	0	0	0	0	8	1	0	0	0	0	0	0	3	0	0	0	0	0	0	22	8	98	0	0	0	14	9	0	28	0	0	0	0	6	7	
+45	81	552	A	11	2	NA	NA	145	51.95	3.333	0	0	0	0	133	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	8	0	0	0	0	0	0	11	10	81	0	0	0	22	8	0	30	0	0	0	0	5	3	
+46	81	552	A	11	3	NA	NA	22	52.22	3.348	0	0	0	0	96	0	0	0	4	5	0	0	0	1	2	0	0	4	1	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0	2	2	0	0	0	0	0	0	4	0	0	0	0	0	0	17	11	112	0	0	0	23	11	0	19	0	0	0	0	7	1	
+47	81	552	A	11	3	NA	NA	43	52.43	3.36	0	0	0	0	138	0	0	0	0	2	0	0	0	0	0	0	0	2	0	1	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	5	122	0	0	0	5	13	0	4	0	0	0	2	1	4	
+48	81	552	A	11	3	NA	NA	59	52.59	3.368	0	0	0	0	103	0	0	0	0	3	0	0	0	1	0	0	0	4	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	2	4	147	0	0	0	3	5	0	2	0	0	0	3	6	3	
+49	81	552	A	11	3	NA	NA	81	52.81	3.379	0	0	0	0	118	0	0	0	0	1	0	0	0	0	0	0	0	5	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	0	0	0	0	3	163	0	0	0	0	0	0	5	1	0	0	9	4	1	
+50	81	552	A	11	3	NA	NA	100	53	3.389	0	0	0	0	83	0	0	0	0	7	0	0	0	1	0	0	0	6	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	1	1	0	0	0	0	0	0	4	0	0	0	0	0	0	4	3	156	0	0	0	2	12	0	2	0	0	0	0	5	4	
+51	81	552	A	11	3	NA	NA	122	53.22	3.402	0	0	0	0	96	0	0	0	0	5	0	0	0	0	0	0	0	4	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0	2	2	0	0	0	0	0	0	4	0	0	0	0	0	0	17	11	111	0	0	0	23	11	0	19	0	0	0	0	7	1	
+52	81	552	A	11	3	NA	NA	144	53.44	3.413	0	0	0	0	50	0	0	0	0	10	0	0	0	1	0	0	0	24	0	1	0	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	5	6	141	0	0	0	2	11	0	11	0	0	0	13	6	4	
+53	81	552	A	11	4	NA	NA	13	53.63	3.423	0	0	0	0	52	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	9	153	0	0	0	4	7	0	11	0	0	0	16	5	7	
+54	81	552	A	11	4	NA	NA	29	53.79	3.431	0	0	0	0	29	0	0	0	0	5	0	0	0	0	1	0	0	22	1	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	3	2	0	0	0	0	0	0	8	0	0	0	0	0	0	11	15	171	0	0	0	2	23	0	4	0	0	0	6	2	7	
+55	81	552	A	12	1	NA	NA	44	54.44	3.465	0	0	0	0	46	0	0	0	0	0	0	0	0	0	0	0	0	14	0	3	0	13	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	7	0	0	0	0	0	0	0	47	155	0	0	0	17	7	0	8	0	0	0	5	3	3	
+56	81	552	A	12	1	NA	NA	61	54.61	3.474	0	0	0	0	22	0	0	0	0	4	0	0	0	0	0	0	0	25	0	1	0	14	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	3	0	0	0	0	0	0	12	17	146	0	0	0	24	9	0	11	1	0	0	4	0	6	
+57	81	552	A	12	1	NA	NA	81	54.81	3.486	0	0	0	0	33	0	0	0	0	0	0	0	0	0	0	0	0	19	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	40	134	0	0	0	34	24	0	21	0	0	0	3	8	1	
+58	81	552	A	12	1	NA	NA	103	55.03	3.497	0	0	0	0	44	0	0	0	0	5	0	0	0	0	0	0	0	22	0	0	0	20	0	0	0	1	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	10	0	0	0	0	0	0	36	28	118	0	0	0	33	8	0	17	0	0	0	0	8	5	
+59	81	552	A	12	1	NA	NA	121	55.21	3.506	0	0	0	0	56	0	0	0	0	0	0	0	0	0	0	0	0	9	0	2	0	14	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	14	0	0	0	0	0	0	0	32	118	0	0	0	29	1	0	22	1	0	0	4	2	6	
+60	81	552	A	12	1	NA	NA	141	55.41	3.517	0	0	0	0	51	0	0	0	0	16	0	0	0	0	0	0	0	2	0	0	0	10	0	0	0	0	0	0	0	0	0	0	1	0	0	5	0	0	0	0	0	0	2	0	0	0	0	0	0	30	26	109	0	0	0	23	3	0	16	0	0	0	4	5	5	
+61	81	552	A	12	2	NA	NA	21	55.71	3.533	0	0	0	0	145	0	0	0	0	3	0	0	0	0	0	0	0	2	0	1	0	6	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	6	93	0	0	0	13	0	0	10	0	0	0	7	2	3	
+62	81	552	A	12	2	NA	NA	39	55.89	3.543	0	0	0	0	108	0	0	1	0	8	0	0	0	0	0	0	0	2	0	0	0	2	0	0	0	0	0	0	0	0	0	0	12	0	0	14	0	0	0	0	0	0	6	0	0	0	0	0	0	10	8	112	0	0	0	5	6	0	2	0	0	0	7	2	3	
+63	81	552	A	12	2	NA	NA	59	56.09	3.553	0	0	0	0	131	0	0	0	0	0	0	0	0	0	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	79	0	0	0	31	5	0	28	1	0	0	7	7	4	
+64	81	552	A	12	2	NA	NA	80	56.3	3.564	0	0	0	0	119	0	0	0	0	8	0	0	0	3	0	0	0	6	0	0	0	5	0	0	0	0	0	0	0	0	0	0	3	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	0	13	20	107	0	0	0	12	5	0	9	1	0	0	1	3	1	
+65	81	552	A	12	2	NA	NA	96	56.46	3.572	0	0	0	0	148	0	0	0	0	2	0	0	0	0	0	0	0	0	0	1	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0	0	0	2	5	97	0	0	0	7	3	0	15	2	0	0	4	2	2	
+66	81	552	A	12	2	NA	NA	119	56.69	3.584	0	0	0	0	99	0	0	0	0	6	0	0	0	0	0	0	0	2	1	1	0	7	0	0	0	0	0	0	0	0	0	0	1	0	1	20	0	0	0	0	0	0	2	0	0	0	0	0	0	0	4	146	0	0	0	3	5	0	0	0	0	0	13	6	3	
+67	81	552	A	12	2	NA	NA	139	56.89	3.591	0	0	0	0	27	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	34	0	0	0	0	0	0	2	0	0	0	0	0	0	2	20	218	0	0	0	2	10	0	0	0	0	0	4	1	3	
+68	81	552	A	12	3	NA	NA	11	57.11	3.6	0	0	0	0	23	0	0	0	0	21	2	0	0	1	0	0	0	3	0	0	0	16	0	0	0	0	0	0	0	0	0	0	1	0	1	93	0	0	0	0	0	0	8	0	0	0	0	0	0	0	4	136	0	0	0	1	1	0	0	0	0	0	1	49	6	
+69	81	552	A	12	3	NA	NA	30	57.3	3.607	0	0	0	0	80	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	10	0	0	0	0	0	0	0	0	0	0	9	0	0	50	0	0	0	0	0	0	1	0	0	0	0	0	0	0	10	131	0	0	0	8	0	0	7	0	0	0	3	6	3	
+70	81	552	A	12	3	NA	NA	50	57.5	3.616	0	0	0	0	46	0	0	0	0	14	0	0	0	0	0	0	0	4	0	0	0	14	0	0	1	0	0	0	0	0	0	0	1	0	2	88	0	0	0	0	0	0	1	0	0	0	0	0	0	1	7	137	0	0	0	3	3	0	6	0	0	0	10	3	5	
+71	81	552	A	12	3	NA	NA	70	57.7	3.624	0	0	0	0	86	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	13	0	0	116	0	0	0	0	0	0	8	0	0	0	0	0	0	4	5	89	0	0	0	3	1	0	0	0	0	0	5	0	10	
+72	81	552	A	12	3	NA	NA	89	57.89	3.631	0	0	0	0	35	0	0	0	0	22	0	0	0	0	3	0	0	0	0	0	0	3	0	0	0	0	0	0	0	0	0	0	5	0	0	145	0	0	0	0	0	0	4	0	0	0	0	0	0	0	4	90	0	0	0	0	1	0	0	0	0	0	3	4	5	
+73	81	552	A	12	3	NA	NA	131	58.31	3.648	0	0	0	0	26	0	0	0	0	0	1	0	0	1	0	0	0	1	0	0	0	14	0	0	0	0	0	0	0	0	0	0	0	0	1	88	0	0	0	0	0	0	8	0	0	0	0	0	0	0	5	129	0	0	0	2	3	0	2	1	0	0	7	4	3	
+74	81	552	A	12	4	NA	NA	11	58.61	3.66	0	0	0	0	27	0	0	0	0	0	0	0	0	0	0	0	0	5	0	1	0	18	0	0	0	0	0	0	0	0	0	0	0	0	0	79	0	0	0	0	0	0	3	0	0	0	0	0	0	0	8	151	0	0	0	3	5	0	2	2	0	0	12	0	6	
+75	81	552	A	12	4	NA	NA	31	58.81	3.668	0	0	0	0	16	0	0	0	0	15	0	0	0	2	0	0	0	12	0	0	0	15	0	0	0	0	0	0	0	0	0	0	0	0	3	38	0	0	0	0	0	0	9	0	0	0	0	0	0	4	6	148	0	0	0	6	5	0	7	1	0	0	21	5	4	
+76	81	552	A	13	1	NA	NA	140	60.43	3.733	0	0	0	0	68	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	11	0	0	0	0	0	0	0	0	0	0	1	0	0	62	0	0	0	0	0	0	6	0	0	0	0	0	0	12	20	119	0	0	0	8	9	0	19	1	0	0	8	6	4	
+77	81	552	A	14	1	NA	NA	41	62.41	3.81	0	0	0	0	51	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	1	116	0	0	0	0	0	0	7	0	0	0	0	0	0	6	11	79	0	0	0	6	5	0	4	4	0	0	1	3	4	
+78	81	552	A	14	1	NA	NA	79	62.79	3.826	0	0	0	0	68	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	3	0	0	127	0	0	0	0	0	0	4	0	0	0	0	0	0	0	13	80	0	0	0	5	4	0	3	1	0	0	0	0	6	
+79	81	552	A	14	1	NA	NA	125	63.25	3.844	0	0	0	0	47	0	0	0	0	0	0	0	0	1	0	0	0	6	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	2	76	0	0	0	0	0	0	1	0	0	0	0	0	0	5	17	120	0	0	0	10	11	0	10	2	0	0	1	3	2	
+80	81	552	A	14	2	NA	NA	13	63.61	3.859	0	0	0	0	40	0	0	0	0	1	0	0	0	0	0	0	0	7	0	0	0	17	0	0	1	0	0	0	0	0	0	0	0	0	1	71	0	0	0	0	0	0	3	0	0	0	0	0	0	10	7	125	0	0	0	15	8	0	8	1	0	0	0	6	2	
+81	81	552	A	14	2	NA	NA	51	64.01	3.874	0	0	0	0	48	0	0	0	0	3	0	0	0	0	0	0	0	5	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	1	105	0	0	0	0	0	0	1	0	0	0	0	0	0	2	16	130	0	0	0	7	7	0	2	2	0	0	0	0	2	
+82	81	552	A	14	2	NA	NA	90	64.4	3.89	0	0	0	0	92	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	1	55	0	0	0	0	0	0	2	0	0	0	0	0	0	0	5	124	0	0	0	2	4	0	3	0	0	0	0	7	6	
+83	81	552	A	14	2	NA	NA	130	64.8	3.905	0	0	0	0	59	0	0	0	0	1	0	0	0	0	0	0	0	2	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	77	0	1	0	0	0	0	4	0	0	0	0	0	0	6	15	102	0	0	0	11	5	0	7	2	0	0	2	1	4	
+84	81	552	A	14	3	NA	NA	20	65.2	3.921	0	0	0	0	23	0	0	0	0	1	0	0	0	0	0	0	0	2	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0	0	95	0	0	0	0	0	0	2	0	0	0	0	0	0	12	8	96	0	0	0	13	10	0	19	0	0	0	1	4	4	
+85	81	552	A	14	3	NA	NA	60	65.6	3.938	0	0	0	0	28	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	16	0	0	0	0	0	0	0	0	0	0	3	0	1	100	0	0	0	0	0	0	5	0	0	0	0	0	0	11	7	121	0	0	0	7	6	0	4	2	0	0	1	2	5	
+86	81	552	A	14	3	NA	NA	100	66	3.952	0	0	0	0	30	0	0	0	0	0	0	0	0	3	1	0	0	17	0	0	0	15	0	0	0	0	0	0	0	0	0	0	11	0	0	65	0	1	0	0	0	0	6	0	0	0	0	0	0	10	10	120	0	0	0	10	5	0	5	2	0	0	1	8	5	
+87	81	552	A	14	3	NA	NA	139	66.39	3.969	0	0	0	0	19	0	0	0	0	2	0	0	0	2	0	0	0	3	0	0	0	31	0	0	0	0	0	0	0	0	0	0	4	0	0	74	0	0	0	0	0	0	1	0	0	0	0	0	0	4	14	136	0	0	0	17	7	0	8	0	0	0	0	3	2	
+88	81	552	A	15	1	NA	NA	53	67.53	4.014	0	0	0	0	21	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	6	0	0	0	0	0	0	0	0	0	0	2	0	4	83	0	0	0	0	0	0	5	0	0	0	0	0	0	9	8	136	0	0	0	11	10	0	13	1	0	0	0	8	5	
+89	81	552	A	15	1	NA	NA	88	67.88	4.027	0	0	0	0	26	0	0	0	0	3	0	0	0	0	0	0	0	3	0	0	0	7	0	0	0	0	0	0	0	0	0	0	2	0	4	79	0	0	0	0	0	0	5	0	0	0	0	0	0	2	31	124	0	0	0	18	7	0	9	2	0	0	0	2	5	
+90	81	552	A	15	1	NA	NA	130	68.3	4.044	0	0	0	0	74	0	0	0	0	10	0	0	0	0	1	0	0	2	0	0	0	18	0	0	0	0	0	0	0	0	0	0	2	0	0	92	0	0	0	0	0	0	3	0	0	0	0	0	0	9	8	90	0	0	0	15	10	0	4	1	0	0	1	5	7	
+91	81	552	A	15	2	NA	NA	20	68.7	4.06	0	0	0	0	76	0	0	1	0	2	0	0	0	0	0	0	0	7	0	1	0	10	0	0	0	0	0	0	0	0	0	0	1	0	0	95	0	0	0	0	0	0	5	0	0	0	0	0	0	7	6	84	0	0	0	9	0	0	10	1	0	0	0	2	2	
+92	81	552	A	15	2	NA	NA	60	69.1	4.076	0	0	0	0	64	0	0	0	0	2	0	0	0	0	0	0	0	3	0	0	0	11	0	0	0	0	0	0	0	0	0	0	3	0	0	78	0	0	0	0	0	0	1	0	0	0	0	0	0	7	5	110	0	0	0	10	7	0	9	0	0	0	0	8	3	
+93	81	552	A	15	2	NA	NA	100	69.5	4.092	0	0	0	0	57	0	0	0	0	4	0	0	0	0	0	0	0	6	0	2	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	49	0	0	0	0	0	0	8	0	0	0	0	0	0	14	7	115	0	0	0	2	4	0	10	0	0	0	0	11	3	
+94	81	552	A	15	2	NA	NA	138	69.88	4.108	0	0	0	0	52	0	0	0	0	2	0	0	0	1	0	0	0	5	0	1	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	66	0	0	0	0	0	0	5	0	0	0	0	0	0	11	17	108	0	0	0	9	6	0	10	2	0	0	0	4	5	
+95	81	552	A	15	3	NA	NA	39	70.39	4.128	0	0	0	0	94	0	0	0	0	6	0	0	0	1	0	0	0	25	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	72	0	0	0	0	0	0	3	0	0	0	0	0	0	2	26	47	0	0	0	16	2	0	12	1	0	0	1	9	4	
+96	81	552	A	15	3	NA	NA	80	70.8	4.144	0	0	0	0	79	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	17	0	0	0	0	0	0	0	0	0	0	2	0	0	47	0	0	0	0	0	0	3	0	0	0	0	0	0	19	14	65	0	0	0	12	5	0	26	0	0	0	0	7	2	
+97	81	552	A	15	3	NA	NA	119	71.19	4.159	0	0	0	0	100	0	0	0	0	6	0	0	0	2	0	0	0	7	0	0	0	16	0	0	0	0	0	0	0	0	0	0	0	0	3	70	0	0	0	0	0	0	1	0	0	0	0	0	0	7	27	56	0	0	0	16	0	0	19	0	0	0	1	1	0	
+98	81	552	A	15	4	NA	NA	10	71.6	4.175	0	0	0	0	87	0	0	0	0	3	0	0	0	0	0	0	0	12	0	0	0	19	0	0	0	0	0	0	0	0	0	0	0	0	0	40	0	0	0	0	0	0	3	0	0	0	0	0	0	16	12	61	0	0	0	7	4	0	24	1	0	0	1	5	4	
+99	81	552	A	16	1	NA	NA	103	73.03	4.231	0	0	0	0	48	0	0	0	0	10	0	0	0	1	0	0	0	9	0	1	0	27	0	0	0	0	0	0	0	0	0	0	2	0	0	61	0	0	0	0	0	0	5	0	0	0	0	0	0	6	36	82	0	0	0	6	2	0	25	0	0	0	0	1	5	
+100	81	552	A	16	2	NA	NA	49	73.99	4.268	0	0	0	0	55	0	0	0	0	7	0	0	0	0	0	0	0	8	0	0	0	25	0	0	0	0	0	0	0	0	0	0	12	0	0	53	0	0	0	0	0	0	0	0	0	0	0	0	0	0	30	88	0	0	0	8	4	0	8	0	0	0	1	9	3	
+101	81	552	A	16	2	NA	NA	131	74.81	4.302	0	0	0	0	67	0	0	0	0	8	0	0	0	1	0	0	0	4	0	0	0	7	0	0	0	0	0	0	0	0	0	0	2	0	0	81	0	0	0	0	0	0	1	0	0	0	0	0	0	7	27	77	0	0	0	7	3	0	11	0	0	0	0	5	3	
+102	81	552	A	16	3	NA	NA	21	75.21	4.321	0	0	0	0	70	0	0	0	0	2	0	0	0	0	0	0	0	5	0	0	0	22	0	0	0	0	0	0	0	0	0	0	0	0	0	62	0	0	0	0	0	0	5	0	0	0	0	0	0	7	13	89	0	0	0	7	3	0	13	0	0	0	0	2	9	
+103	81	552	A	16	3	NA	NA	139	76.39	4.375	0	0	0	0	59	0	0	0	0	4	0	0	0	0	0	0	0	1	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	0	6	0	0	0	0	0	0	1	46	121	0	0	0	16	7	0	22	0	0	0	1	1	2	
+104	81	552	A	17	1	NA	NA	53	77.53	4.427	0	0	0	0	96	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	6	0	0	0	0	0	0	8	44	88	0	0	0	23	9	0	12	2	0	0	0	9	3	
+105	81	552	A	17	1	NA	NA	130	78.3	4.464	0	0	0	0	112	0	0	0	0	0	0	0	0	1	0	0	0	2	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	4	27	72	0	0	0	34	11	0	40	0	0	0	1	6	6	
+106	81	552	A	17	2	NA	NA	60	79.1	4.494	0	0	0	0	62	0	0	0	0	4	0	0	0	0	0	0	0	4	0	0	0	9	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	4	0	0	0	0	0	0	2	59	129	0	0	0	11	4	0	25	2	0	0	0	3	4	
+107	81	552	A	17	2	NA	NA	140	79.9	4.52	0	0	0	0	72	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	1	62	121	0	0	0	14	7	0	20	0	0	0	1	1	8	
+108	81	552	A	17	3	NA	NA	70	80.7	4.545	0	0	0	0	68	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0	9	0	0	0	0	0	0	7	50	131	0	0	0	7	4	0	16	1	0	0	0	3	5	
+109	81	552	A	17	4	NA	NA	20	81.7	4.577	0	0	0	0	60	0	0	0	0	0	0	0	0	1	0	0	0	9	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	6	0	0	0	0	0	0	13	62	138	0	0	0	4	15	0	26	0	0	0	0	3	6	
+110	81	552	A	18	1	NA	NA	90	82.9	4.615	0	0	0	0	65	0	0	0	0	2	0	0	0	0	0	0	0	3	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	5	80	112	0	0	0	28	5	0	18	0	0	0	1	1	10	
+111	81	552	A	18	1	NA	NA	130	83.3	4.629	0	0	0	0	139	0	0	0	0	1	0	0	0	0	0	0	0	1	0	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	0	0	0	7	21	89	0	0	0	8	9	0	12	0	0	0	0	0	8	
+112	81	552	A	18	2	NA	NA	70	84.2	4.661	0	0	0	0	34	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	7	0	0	0	0	0	0	3	78	137	0	0	0	19	10	0	15	0	0	0	0	5	6	
+113	81	552	A	18	3	NA	NA	10	85.1	4.693	0	0	0	0	66	0	0	0	0	0	0	0	0	0	0	0	0	9	0	0	0	13	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	15	0	0	0	0	0	0	2	93	67	0	0	0	29	6	0	35	3	0	0	0	1	6	
+114	81	552	A	18	3	NA	NA	90	85.9	4.721	0	0	0	0	58	0	0	0	0	0	0	0	0	2	0	0	0	4	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	4	0	5	0	0	0	0	7	0	0	0	0	0	0	7	82	94	0	0	0	33	12	0	16	0	0	0	0	6	7	
+115	81	552	A	18	4	NA	NA	20	86.7	4.75	0	0	0	0	99	0	0	0	0	0	0	0	0	0	0	0	0	4	0	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	2	2	0	0	0	0	0	0	4	0	0	0	0	0	0	0	69	96	0	0	0	20	18	0	11	0	0	0	0	2	15	
+116	81	552	A	19	1	NA	NA	81	87.81	4.79	0	0	0	0	122	0	0	0	0	3	0	0	0	0	0	0	0	6	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	8	0	0	0	0	0	0	17	35	60	0	0	0	25	19	0	10	0	0	0	0	7	3	
+117	81	552	A	19	2	NA	NA	11	88.61	4.821	0	0	0	0	79	0	0	0	0	1	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	8	8	144	0	0	0	4	74	0	1	2	0	0	0	4	3	
+118	81	552	A	19	3	NA	NA	20	90.2	4.886	0	0	0	0	97	0	0	0	0	0	0	0	0	1	3	0	0	0	1	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	0	0	0	0	0	0	0	9	28	89	0	0	0	28	10	0	16	2	0	0	0	10	5	
+119	81	552	A	19	3	NA	NA	101	91.01	4.91	0	0	0	0	70	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	6	65	103	0	0	0	34	4	0	14	1	0	0	0	8	8	
+120	81	552	A	19	3	NA	NA	140	91.4	4.922	0	0	0	0	142	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	0	6	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	8	40	69	0	0	0	29	10	0	11	2	0	0	0	10	8	
+121	81	552	A	20	1	NA	NA	100	93	4.967	0	0	0	0	82	0	0	0	0	10	0	0	0	0	2	0	0	0	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	13	0	0	0	0	0	0	7	79	109	0	0	0	17	5	0	7	3	0	0	0	7	8	
+122	81	552	A	20	2	NA	NA	20	93.7	4.99	0	0	0	0	82	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	12	0	0	0	0	0	0	4	54	111	0	0	0	22	8	0	12	3	0	0	0	7	2	
+123	81	552	A	20	2	NA	NA	80	94.3	5.014	0	0	0	0	120	0	0	0	0	1	0	0	0	1	0	0	0	2	0	0	0	7	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	11	0	0	0	0	0	0	12	44	83	0	0	0	43	2	0	4	1	0	0	0	9	5	
+124	81	552	A	20	3	NA	NA	10	95.1	5.045	0	0	0	0	49	0	0	0	0	0	0	0	0	0	0	0	0	0	1	0	0	10	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	14	0	0	0	0	0	0	5	67	81	0	0	0	49	5	0	11	0	0	0	0	10	17	
